@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #2056",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Uncommon Trump features Thumbs Up with Tuxedo. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/2056.png",
+  "external_url": "https://cryptotrump.io/trump/2056",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Windswept",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tuxedo",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Gold Watch",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 11,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

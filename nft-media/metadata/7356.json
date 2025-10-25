@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #7356",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Epic Trump features Serious with Blue Suit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/7356.png",
+  "external_url": "https://cryptotrump.io/trump/7356",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mar-a-Lago",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Suit",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Gold Watch",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Holographic",
+      "rarity": "Mythic"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Diamond",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 51,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

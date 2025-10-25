@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #2229",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Rare Trump features Peace Sign with Black Suit White Tie. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/2229.png",
+  "external_url": "https://cryptotrump.io/trump/2229",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Suit White Tie",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "MAGA Hat",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "American Flag",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 23,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
 /**
  * @title CryptoTrumpMarketplace
  * @notice NFT Marketplace for CryptoTrump - 10,000 unique Trump-themed collectibles
- * @dev Modern implementation with ERC721, cross-chain capabilities, and comprehensive security
+ * @dev Modern implementation with ERC721 and comprehensive security
  *
  * 🇺🇸 Make NFTs Great Again! 🇺🇸
  *
@@ -24,6 +24,8 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
  * - Solidity 0.8.20 with modern security patterns
  * - OpenZeppelin audited contracts
  * - Pausable for emergency situations
+ *
+ * Note: Cross-chain capabilities will be added in Phase 2
  */
 contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pausable {
 
@@ -199,6 +201,8 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     ) ERC721(COLLECTION_NAME, TOKEN_SYMBOL) Ownable(msg.sender) {
         require(_treasury != address(0), "Invalid treasury address");
 
+     */
+    constructor() ERC721(COLLECTION_NAME, TOKEN_SYMBOL) Ownable(msg.sender) {
         nextTrumpIndexToAssign = 0;
         trumpsRemainingToAssign = TOTAL_TRUMPS;
         allTrumpsAssigned = false;
@@ -214,11 +218,11 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     // ============ Initial Distribution Functions ============
 
     /**
-     * @notice Assign initial ownership of a Trump (only owner, before all assigned)
+     * @notice Internal function to assign initial ownership of a Trump
      * @param to Address to assign the Trump to
      * @param trumpIndex Index of the Trump to assign
      */
-    function setInitialOwner(address to, uint256 trumpIndex) external onlyOwner {
+    function _setInitialOwner(address to, uint256 trumpIndex) internal {
         if (allTrumpsAssigned) revert AllTrumpsAlreadyAssigned();
         if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
         if (to == address(0)) revert InvalidAddress();
@@ -236,6 +240,15 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     }
 
     /**
+     * @notice Assign initial ownership of a Trump (only owner, before all assigned)
+     * @param to Address to assign the Trump to
+     * @param trumpIndex Index of the Trump to assign
+     */
+    function setInitialOwner(address to, uint256 trumpIndex) external onlyOwner {
+        _setInitialOwner(to, trumpIndex);
+    }
+
+    /**
      * @notice Batch assign initial owners
      * @param addresses Array of addresses to assign Trumps to
      * @param indices Array of Trump indices to assign
@@ -244,7 +257,7 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
         require(addresses.length == indices.length, "Array length mismatch");
 
         for (uint256 i = 0; i < addresses.length; i++) {
-            setInitialOwner(addresses[i], indices[i]);
+            _setInitialOwner(addresses[i], indices[i]);
         }
     }
 
@@ -298,22 +311,24 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     }
 
     /**
-     * @notice Override ERC721 transfer to handle marketplace state
+     * @notice Override ERC721 update to handle marketplace state
      */
-    function _afterTokenTransfer(
-        address from,
+    function _update(
         address to,
-        uint256 firstTokenId,
-        uint256 batchSize
-    ) internal virtual override {
-        super._afterTokenTransfer(from, to, firstTokenId, batchSize);
+        uint256 tokenId,
+        address auth
+    ) internal virtual override returns (address) {
+        address from = super._update(to, tokenId, auth);
 
+        // Clean up marketplace state on transfer
         if (from != address(0) && to != address(0)) {
-            if (trumpsOfferedForSale[firstTokenId].isForSale &&
-                trumpsOfferedForSale[firstTokenId].seller == from) {
-                delete trumpsOfferedForSale[firstTokenId];
+            if (trumpsOfferedForSale[tokenId].isForSale &&
+                trumpsOfferedForSale[tokenId].seller == from) {
+                delete trumpsOfferedForSale[tokenId];
             }
         }
+
+        return from;
     }
 
     // ============ Sale Functions ============

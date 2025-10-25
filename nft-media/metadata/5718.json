@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #5718",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Rare Trump features America First Gesture with Black Suit White Tie. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/5718.png",
+  "external_url": "https://cryptotrump.io/trump/5718",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue Sky",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "America First Gesture",
+      "rarity": "Legendary"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Windswept",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Suit White Tie",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "American Flag Pin",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 23,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}
