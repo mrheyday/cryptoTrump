@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #4277",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4277 features a classic combover, peace sign expression, wearing a presidential, against a maga red background, with american flag pin.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4277.svg",
+  "external_url": "https://cryptotrump.io/trump/4277",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Presidential"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "American Flag Pin"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Rainbow Trail"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 369.33
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593556,
+  "dna": "7d94f8f7dae132ff"
+}

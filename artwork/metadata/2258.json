@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #2258",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2258 features a presidential wave, winning smile expression, wearing a blue power suit, against a maga red background, with microphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2258.svg",
+  "external_url": "https://cryptotrump.io/trump/2258",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Power Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Microphone"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Space Background"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 394.31
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593138,
+  "dna": "fa45a4231fd32314"
+}

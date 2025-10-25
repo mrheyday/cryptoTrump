@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8284",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8284 features a wind blown, you're fired expression, wearing a navy business, against a dollar green background, with aviator sunglasses.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8284.svg",
+  "external_url": "https://cryptotrump.io/trump/8284",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Aviator Sunglasses"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Space Background"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 366.17
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594361,
+  "dna": "84ad297f0f09090c"
+}

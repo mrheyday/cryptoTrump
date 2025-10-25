@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8834",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8834 features a golden crown, thumbs up expression, wearing a classic red tie, against a american flag background, with aviator sunglasses.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8834.svg",
+  "external_url": "https://cryptotrump.io/trump/8834",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Crown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Aviator Sunglasses"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 234
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594473,
+  "dna": "61432460cc4d7927"
+}

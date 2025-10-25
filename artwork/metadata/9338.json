@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9338",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9338 features a power flow, power stance expression, wearing a gold accents, against a presidential blue background, with american flag pin.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9338.svg",
+  "external_url": "https://cryptotrump.io/trump/9338",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Power Stance"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "American Flag Pin"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Neon Outline"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 368.46
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594578,
+  "dna": "6164ec0a10ddc678"
+}

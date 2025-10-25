@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8632",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8632 features a wind blown, serious business expression, wearing a blue power suit, against a trump tower gold background, with american flag pin.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8632.svg",
+  "external_url": "https://cryptotrump.io/trump/8632",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious Business"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Power Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "American Flag Pin"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 92.39
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594431,
+  "dna": "b63c6b6908c508e1"
+}

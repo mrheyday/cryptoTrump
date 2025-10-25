@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #3247",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3247 features a golden swoop, wink expression, wearing a black tuxedo, against a marble elegance background, with aviator sunglasses.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3247.svg",
+  "external_url": "https://cryptotrump.io/trump/3247",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Marble Elegance"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Wink"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Aviator Sunglasses"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 122.33
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593345,
+  "dna": "ba38b3df28fae85e"
+}

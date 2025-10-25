@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #4279",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4279 features a platinum blonde, confident smirk expression, wearing a navy business, against a maga red background, with presidential seal.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4279.svg",
+  "external_url": "https://cryptotrump.io/trump/4279",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Platinum Blonde"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Presidential Seal"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Rainbow Trail"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 384.27
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593556,
+  "dna": "53e68dfef46ed2f8"
+}

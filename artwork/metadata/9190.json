@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9190",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9190 features a golden swoop, fist pump expression, wearing a commander chief, against a dollar green background, with american flag pin.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9190.svg",
+  "external_url": "https://cryptotrump.io/trump/9190",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Commander Chief"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "American Flag Pin"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 150.17
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594547,
+  "dna": "f5c9cfeb1af399eb"
+}

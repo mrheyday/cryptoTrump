@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #4665",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4665 features a slicked back, power stance expression, wearing a blue power suit, against a presidential blue background, with american flag pin.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4665.svg",
+  "external_url": "https://cryptotrump.io/trump/4665",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Power Stance"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Power Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "American Flag Pin"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 65.23
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593636,
+  "dna": "b429f2efe531eeab"
+}

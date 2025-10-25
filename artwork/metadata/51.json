@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #51",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #51 features a presidential wave, serious business expression, wearing a pin stripe, against a trump tower gold background, with gold chain.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/51.svg",
+  "external_url": "https://cryptotrump.io/trump/51",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious Business"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Dollar Rain"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 197.67
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592653,
+  "dna": "7c7ba9e0b4621759"
+}

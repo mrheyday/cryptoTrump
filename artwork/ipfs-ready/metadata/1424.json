@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #1424",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1424 features a platinum blonde, fist pump expression, wearing a blue power suit, against a twitter blue background, with ethereum logo.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1424.svg",
+  "external_url": "https://cryptotrump.io/trump/1424",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Platinum Blonde"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Power Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Ethereum Logo"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 172.51
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592965,
+  "dna": "5ceee231779a39a1"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #6083",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #6083 features a golden swoop, fist pump expression, wearing a black tuxedo, against a american flag background, with trophy.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/6083.svg",
+  "external_url": "https://cryptotrump.io/trump/6083",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Trophy"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Crypto Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 261.83
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593918,
+  "dna": "6e48ea9d39861ca2"
+}

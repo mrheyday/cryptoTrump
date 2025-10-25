@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #5315",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5315 features a wind blown, pointing finger expression, wearing a golden blazer, against a trump tower gold background, with american flag pin.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5315.svg",
+  "external_url": "https://cryptotrump.io/trump/5315",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing Finger"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Golden Blazer"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "American Flag Pin"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 169.81
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593763,
+  "dna": "8f650141f1887d8c"
+}

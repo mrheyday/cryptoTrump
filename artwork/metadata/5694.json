@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #5694",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5694 features a presidential wave, thumbs up expression, wearing a navy business, against a diamond rare background, with golf club.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5694.svg",
+  "external_url": "https://cryptotrump.io/trump/5694",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Diamond Rare"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Golf Club"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 189.58
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593838,
+  "dna": "ac4fbc9e7e7c7286"
+}

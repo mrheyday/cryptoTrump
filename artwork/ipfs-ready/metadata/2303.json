@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #2303",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2303 features a classic combover, confident smirk expression, wearing a aviator jacket, against a american flag background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2303.svg",
+  "external_url": "https://cryptotrump.io/trump/2303",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Aviator Jacket"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 62.62
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593148,
+  "dna": "0aedf5f2644efd0d"
+}

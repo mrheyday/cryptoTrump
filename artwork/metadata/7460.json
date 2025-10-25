@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #7460",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7460 features a classic combover, serious business expression, wearing a commander chief, against a wall grey background, with dollar bills.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7460.svg",
+  "external_url": "https://cryptotrump.io/trump/7460",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious Business"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Commander Chief"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Dollar Bills"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 162.53
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594192,
+  "dna": "9b87ad429d7462e6"
+}

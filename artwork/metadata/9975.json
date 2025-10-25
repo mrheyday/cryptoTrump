@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9975",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9975 features a gravity defying, thumbs up expression, wearing a pin stripe, against a dollar green background, with trophy.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9975.svg",
+  "external_url": "https://cryptotrump.io/trump/9975",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Trophy"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Space Background"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Mythic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 427.92
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594709,
+  "dna": "394c3ac8abf34913"
+}

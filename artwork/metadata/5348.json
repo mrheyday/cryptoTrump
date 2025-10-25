@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #5348",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5348 features a power flow, power stance expression, wearing a patriot colors, against a wall grey background, with laser eyes.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5348.svg",
+  "external_url": "https://cryptotrump.io/trump/5348",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Power Stance"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Patriot Colors"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 320.87
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593770,
+  "dna": "8f3383ab0fc2e9b7"
+}

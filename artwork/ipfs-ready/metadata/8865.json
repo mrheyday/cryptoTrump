@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8865",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8865 features a gravity defying, winning smile expression, wearing a black tuxedo, against a trump tower gold background, with gold watch.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8865.svg",
+  "external_url": "https://cryptotrump.io/trump/8865",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Watch"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 125.67
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594479,
+  "dna": "67e51d466a53bd34"
+}

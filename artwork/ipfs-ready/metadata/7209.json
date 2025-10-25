@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #7209",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7209 features a wind blown, peace sign expression, wearing a patriot colors, against a twitter blue background, with smartphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7209.svg",
+  "external_url": "https://cryptotrump.io/trump/7209",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Patriot Colors"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Smartphone"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 128.82
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594144,
+  "dna": "65e1f0cb9141aea5"
+}

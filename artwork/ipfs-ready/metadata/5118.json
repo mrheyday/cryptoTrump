@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #5118",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5118 features a gravity defying, you're fired expression, wearing a pin stripe, against a twitter blue background, with ethereum logo.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5118.svg",
+  "external_url": "https://cryptotrump.io/trump/5118",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Ethereum Logo"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 164.54
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593724,
+  "dna": "69a5c42d5ac600d3"
+}

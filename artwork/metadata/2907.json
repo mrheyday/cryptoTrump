@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #2907",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2907 features a classic combover, accordion hands expression, wearing a black tuxedo, against a american flag background, with presidential seal.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2907.svg",
+  "external_url": "https://cryptotrump.io/trump/2907",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Accordion Hands"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Presidential Seal"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 101.74
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593276,
+  "dna": "60852e9e69593c67"
+}

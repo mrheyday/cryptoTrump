@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #2396",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2396 features a wind blown, winning smile expression, wearing a classic red tie, against a wall grey background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2396.svg",
+  "external_url": "https://cryptotrump.io/trump/2396",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 44.45
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593167,
+  "dna": "48faf454530da784"
+}

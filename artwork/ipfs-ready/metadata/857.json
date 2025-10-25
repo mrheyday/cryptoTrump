@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #857",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #857 features a wind blown, thumbs up expression, wearing a casual golf, against a wall grey background, with presidential seal.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/857.svg",
+  "external_url": "https://cryptotrump.io/trump/857",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Golf"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Presidential Seal"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 103.24
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592847,
+  "dna": "fc9b7e76af35b7d6"
+}

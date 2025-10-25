@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #7941",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7941 features a volume max, confident smirk expression, wearing a commander chief, against a gold luxe background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7941.svg",
+  "external_url": "https://cryptotrump.io/trump/7941",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Commander Chief"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 85.29
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594289,
+  "dna": "f289d2a64b76b2ba"
+}

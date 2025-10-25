@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #287",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #287 features a presidential wave, you're fired expression, wearing a gold accents, against a twitter blue background, with microphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/287.svg",
+  "external_url": "https://cryptotrump.io/trump/287",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Microphone"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Crypto Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 256.32
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592705,
+  "dna": "3d086ced54019257"
+}

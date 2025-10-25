@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #6521",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #6521 features a power flow, shrug expression, wearing a casual golf, against a twitter blue background, with legendary aura.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/6521.svg",
+  "external_url": "https://cryptotrump.io/trump/6521",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Shrug"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Golf"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Legendary Aura"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 332.37
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594007,
+  "dna": "1f6b627a0c136b91"
+}

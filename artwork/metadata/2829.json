@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #2829",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2829 features a platinum blonde, fist pump expression, wearing a navy business, against a maga red background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2829.svg",
+  "external_url": "https://cryptotrump.io/trump/2829",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Platinum Blonde"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 79.45
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593258,
+  "dna": "2006a6dd11fcb88d"
+}

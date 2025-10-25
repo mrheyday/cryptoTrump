@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #1511",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1511 features a presidential wave, winning smile expression, wearing a maga rally, against a american flag background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1511.svg",
+  "external_url": "https://cryptotrump.io/trump/1511",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "MAGA Rally"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 62.95
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592982,
+  "dna": "ba5c34ba0a68676a"
+}

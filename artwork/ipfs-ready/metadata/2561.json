@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #2561",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2561 features a power flow, fist pump expression, wearing a charcoal grey, against a twitter blue background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2561.svg",
+  "external_url": "https://cryptotrump.io/trump/2561",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Charcoal Grey"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 99.5
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593201,
+  "dna": "04afc4ffa8329227"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #2923",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2923 features a golden swoop, peace sign expression, wearing a classic red tie, against a twitter blue background, with smartphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2923.svg",
+  "external_url": "https://cryptotrump.io/trump/2923",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Smartphone"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 155
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593280,
+  "dna": "12d9857e5f9538ba"
+}

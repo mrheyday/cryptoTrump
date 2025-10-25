@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #5588",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5588 features a classic combover, confident smirk expression, wearing a luxury white, against a maga red background, with maga hat.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5588.svg",
+  "external_url": "https://cryptotrump.io/trump/5588",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Luxury White"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "MAGA Hat"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 131.5
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593817,
+  "dna": "cd6dcbbe5e0c32e7"
+}

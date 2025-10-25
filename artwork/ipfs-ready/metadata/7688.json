@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #7688",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7688 features a golden swoop, shrug expression, wearing a navy business, against a marble elegance background, with maga hat.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7688.svg",
+  "external_url": "https://cryptotrump.io/trump/7688",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Marble Elegance"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Shrug"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "MAGA Hat"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 89.62
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594237,
+  "dna": "3db7ab1e323e9edc"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #1111",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1111 features a classic combover, fist pump expression, wearing a diamond suit, against a american flag background, with trophy.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1111.svg",
+  "external_url": "https://cryptotrump.io/trump/1111",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Diamond Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Trophy"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 208.17
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592904,
+  "dna": "a967eaa8c6f67a1f"
+}

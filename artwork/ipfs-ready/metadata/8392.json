@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8392",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8392 features a gravity defying, you're fired expression, wearing a navy business, against a presidential blue background, with golf club.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8392.svg",
+  "external_url": "https://cryptotrump.io/trump/8392",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Golf Club"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 156.22
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594382,
+  "dna": "daf4a656b7788502"
+}

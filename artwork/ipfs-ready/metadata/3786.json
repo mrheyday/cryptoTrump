@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3786",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3786 features a volume max, you're fired expression, wearing a classic red tie, against a american flag background, with smartphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3786.svg",
+  "external_url": "https://cryptotrump.io/trump/3786",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Smartphone"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 108.65
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593456,
+  "dna": "1e13d86cf65478fa"
+}

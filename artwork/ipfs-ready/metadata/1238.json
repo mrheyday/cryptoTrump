@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #1238",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1238 features a silver fox, you're fired expression, wearing a black tuxedo, against a presidential blue background, with smartphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1238.svg",
+  "external_url": "https://cryptotrump.io/trump/1238",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Silver Fox"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Smartphone"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 146.37
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592928,
+  "dna": "e3a40cdcef47a97c"
+}

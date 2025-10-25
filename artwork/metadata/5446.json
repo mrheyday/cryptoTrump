@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #5446",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5446 features a rainbow mane, confident smirk expression, wearing a presidential, against a maga red background, with twitter bird.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5446.svg",
+  "external_url": "https://cryptotrump.io/trump/5446",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Rainbow Mane"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Presidential"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Twitter Bird"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Dollar Rain"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 263.67
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593788,
+  "dna": "e1437c4551ebe8b8"
+}

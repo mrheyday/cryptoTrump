@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3836",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3836 features a wind blown, wink expression, wearing a classic red tie, against a american flag background, with dollar bills.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3836.svg",
+  "external_url": "https://cryptotrump.io/trump/3836",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Wink"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Dollar Bills"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 90.12
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593467,
+  "dna": "4707fe0f219c69ca"
+}

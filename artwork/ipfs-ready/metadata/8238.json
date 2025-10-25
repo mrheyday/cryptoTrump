@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #8238",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8238 features a slicked back, fist pump expression, wearing a casual golf, against a dollar green background, with legendary aura.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8238.svg",
+  "external_url": "https://cryptotrump.io/trump/8238",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Golf"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Legendary Aura"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 265.62
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594352,
+  "dna": "74a0a15884069a61"
+}

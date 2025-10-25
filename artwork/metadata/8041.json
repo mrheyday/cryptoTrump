@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8041",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8041 features a volume max, winning smile expression, wearing a casual golf, against a diamond rare background, with gold chain.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8041.svg",
+  "external_url": "https://cryptotrump.io/trump/8041",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Diamond Rare"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Casual Golf"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 152.67
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594310,
+  "dna": "db0f7d5812daa9f5"
+}

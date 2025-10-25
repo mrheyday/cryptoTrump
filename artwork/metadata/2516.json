@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #2516",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2516 features a golden swoop, accordion hands expression, wearing a black tuxedo, against a wall grey background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2516.svg",
+  "external_url": "https://cryptotrump.io/trump/2516",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Accordion Hands"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 48.45
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593192,
+  "dna": "5b883b66cca95cd7"
+}

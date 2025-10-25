@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #2636",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2636 features a gravity defying, pointing finger expression, wearing a navy business, against a wall grey background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2636.svg",
+  "external_url": "https://cryptotrump.io/trump/2636",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing Finger"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Navy Business"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 111.81
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593217,
+  "dna": "d6fe28ff1d60b965"
+}

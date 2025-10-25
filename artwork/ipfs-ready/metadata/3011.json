@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3011",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3011 features a wind blown, pointing finger expression, wearing a presidential, against a marble elegance background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3011.svg",
+  "external_url": "https://cryptotrump.io/trump/3011",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Marble Elegance"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing Finger"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Presidential"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Dollar Rain"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 166.14
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593299,
+  "dna": "5b23ec7da9f0a44d"
+}

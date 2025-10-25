@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3840",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3840 features a presidential wave, air kiss expression, wearing a maga rally, against a gold luxe background, with laser eyes.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3840.svg",
+  "external_url": "https://cryptotrump.io/trump/3840",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Air Kiss"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "MAGA Rally"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 275.29
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593467,
+  "dna": "f55067712364261c"
+}

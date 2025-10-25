@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #4319",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4319 features a wind blown, thumbs up expression, wearing a pin stripe, against a wall grey background, with trophy.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4319.svg",
+  "external_url": "https://cryptotrump.io/trump/4319",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Trophy"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 113.54
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593564,
+  "dna": "2a646d54193df19b"
+}

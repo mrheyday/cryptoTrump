@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #2369",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2369 features a volume max, confident smirk expression, wearing a gold accents, against a gold luxe background, with maga hat.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2369.svg",
+  "external_url": "https://cryptotrump.io/trump/2369",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "MAGA Hat"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Fire Background"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 365.57
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593162,
+  "dna": "6e36d587e296a732"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #1405",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1405 features a classic combover, winning smile expression, wearing a classic red tie, against a gold luxe background, with nft badge.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1405.svg",
+  "external_url": "https://cryptotrump.io/trump/1405",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "NFT Badge"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Crypto Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 281.17
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592961,
+  "dna": "b8c63ffa04557a7c"
+}

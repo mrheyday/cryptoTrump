@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8373",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8373 features a gravity defying, confident smirk expression, wearing a presidential, against a american flag background, with presidential seal.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8373.svg",
+  "external_url": "https://cryptotrump.io/trump/8373",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Presidential"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Presidential Seal"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 142.24
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594378,
+  "dna": "0ef9a152fcbc88e5"
+}

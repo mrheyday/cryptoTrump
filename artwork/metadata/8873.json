@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8873",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8873 features a rainbow mane, serious business expression, wearing a pin stripe, against a american flag background, with maga hat.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8873.svg",
+  "external_url": "https://cryptotrump.io/trump/8873",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Rainbow Mane"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious Business"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "MAGA Hat"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 183.58
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594481,
+  "dna": "6527e95afb319fdf"
+}

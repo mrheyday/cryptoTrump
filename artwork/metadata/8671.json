@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #8671",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8671 features a golden swoop, pointing finger expression, wearing a classic red tie, against a presidential blue background, with twitter bird.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8671.svg",
+  "external_url": "https://cryptotrump.io/trump/8671",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing Finger"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Twitter Bird"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 93.65
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594439,
+  "dna": "bc5bdfa7bb6cdc25"
+}

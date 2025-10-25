@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #5559",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5559 features a classic combover, you're fired expression, wearing a gold accents, against a dollar green background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5559.svg",
+  "external_url": "https://cryptotrump.io/trump/5559",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 57.52
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593810,
+  "dna": "6a33291041f556e7"
+}

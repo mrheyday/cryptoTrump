@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #860",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #860 features a platinum blonde, peace sign expression, wearing a pin stripe, against a maga red background, with pepe friend.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/860.svg",
+  "external_url": "https://cryptotrump.io/trump/860",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Platinum Blonde"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Pepe Friend"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Space Background"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 565.92
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592847,
+  "dna": "ee555fdafc5bb23f"
+}

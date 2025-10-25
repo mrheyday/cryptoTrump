@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #643",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #643 features a power flow, air kiss expression, wearing a maga rally, against a wall grey background, with maga hat.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/643.svg",
+  "external_url": "https://cryptotrump.io/trump/643",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Air Kiss"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "MAGA Rally"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "MAGA Hat"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 79.87
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592786,
+  "dna": "0b7a71e9df4d1f08"
+}

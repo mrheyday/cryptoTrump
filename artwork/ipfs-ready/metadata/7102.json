@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #7102",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7102 features a wind blown, fist pump expression, wearing a patriot colors, against a wall grey background, with aviator sunglasses.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7102.svg",
+  "external_url": "https://cryptotrump.io/trump/7102",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Fist Pump"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Patriot Colors"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Aviator Sunglasses"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 95.62
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594124,
+  "dna": "c834170689ef4d77"
+}

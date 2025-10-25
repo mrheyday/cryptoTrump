@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9645",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9645 features a slicked back, peace sign expression, wearing a presidential, against a diamond rare background, with laser eyes.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9645.svg",
+  "external_url": "https://cryptotrump.io/trump/9645",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Diamond Rare"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Presidential"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 334.83
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594641,
+  "dna": "c15275dc14743eea"
+}

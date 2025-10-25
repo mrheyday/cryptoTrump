@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #1922",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1922 features a classic combover, winning smile expression, wearing a presidential, against a diamond rare background, with crown.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1922.svg",
+  "external_url": "https://cryptotrump.io/trump/1922",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Diamond Rare"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Presidential"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Crown"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Rainbow Trail"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 477
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593068,
+  "dna": "ab6831e8e26c588b"
+}

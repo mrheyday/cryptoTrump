@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #7592",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7592 features a slicked back, thumbs up expression, wearing a blue power suit, against a gold luxe background, with briefcase.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7592.svg",
+  "external_url": "https://cryptotrump.io/trump/7592",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Power Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Briefcase"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Presidential Aura"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 210.59
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594218,
+  "dna": "cb83d1e587eb7c9e"
+}

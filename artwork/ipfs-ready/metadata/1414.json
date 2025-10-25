@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #1414",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1414 features a golden swoop, pointing finger expression, wearing a gold accents, against a gold luxe background, with gold watch.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1414.svg",
+  "external_url": "https://cryptotrump.io/trump/1414",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing Finger"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Watch"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 77.37
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592963,
+  "dna": "20ca0865305a1e8a"
+}

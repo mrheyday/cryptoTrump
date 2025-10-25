@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3289",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3289 features a slicked back, shrug expression, wearing a maga rally, against a american flag background, with maga hat.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3289.svg",
+  "external_url": "https://cryptotrump.io/trump/3289",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Shrug"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "MAGA Rally"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "MAGA Hat"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 94.04
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593354,
+  "dna": "7ea9b2631cb064dd"
+}

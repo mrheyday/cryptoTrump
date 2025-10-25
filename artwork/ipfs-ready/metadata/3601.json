@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3601",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3601 features a classic combover, air kiss expression, wearing a classic red tie, against a marble elegance background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3601.svg",
+  "external_url": "https://cryptotrump.io/trump/3601",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Marble Elegance"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Air Kiss"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Dollar Rain"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 154.7
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593418,
+  "dna": "0b519f0d669ef818"
+}

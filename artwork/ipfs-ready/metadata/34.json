@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #34",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #34 features a golden swoop, peace sign expression, wearing a stars & stripes, against a dollar green background, with gold chain.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/34.svg",
+  "external_url": "https://cryptotrump.io/trump/34",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Stars & Stripes"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 142.79
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592650,
+  "dna": "a03a22790f8709e1"
+}

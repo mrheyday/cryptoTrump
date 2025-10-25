@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #3585",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3585 features a classic combover, winning smile expression, wearing a commander chief, against a maga red background, with twitter bird.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3585.svg",
+  "external_url": "https://cryptotrump.io/trump/3585",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Commander Chief"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Twitter Bird"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 124.62
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593415,
+  "dna": "e364c3b78b2055f0"
+}

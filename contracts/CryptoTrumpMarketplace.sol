@@ -2,6 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/common/ERC2981.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Pausable.sol";
@@ -16,6 +17,9 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
  * Features:
  * - 10,000 unique Trump-themed digital collectibles
  * - Full ERC721 standard compliance
+ * - ERC2981 Royalty Standard (3% royalties)
+ * - Custom messages (inspired by Pak's Censored)
+ * - Pay-what-you-want minting
  * - Built-in marketplace for buying, selling, and bidding
  * - Solidity 0.8.20 with modern security patterns
  * - OpenZeppelin audited contracts
@@ -23,7 +27,7 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
  *
  * Note: Cross-chain capabilities will be added in Phase 2
  */
-contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
+contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pausable {
 
     // ============ Constants ============
 
@@ -37,7 +41,13 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
     string public constant TOKEN_SYMBOL = "TRUMP";
 
     /// @notice Version number
-    string public constant VERSION = "1.0.0";
+    string public constant VERSION = "2.0.0";
+
+    /// @notice Maximum message length (inspired by Pak's Censored)
+    uint256 public constant MAX_MESSAGE_LENGTH = 72;
+
+    /// @notice Default royalty basis points (3% = 300 basis points)
+    uint96 public constant DEFAULT_ROYALTY_BPS = 300;
 
     // ============ State Variables ============
 
@@ -62,6 +72,24 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
     /// @notice Base URI for token metadata
     string private _baseTokenURI;
 
+    /// @notice Minimum mint price for pay-what-you-want minting
+    uint256 public minimumMintPrice;
+
+    /// @notice Mapping of custom messages for each Trump (inspired by Pak's Censored)
+    mapping(uint256 => TrumpMessage) public trumpMessages;
+
+    /// @notice Total contributions from pay-what-you-want minting
+    mapping(address => uint256) public totalContributions;
+
+    /// @notice Project treasury address for royalties and contributions
+    address public projectTreasury;
+
+    /// @notice Authorized merge contract that can burn NFTs
+    address public mergeContract;
+
+    /// @notice Mapping of Trump ID to rarity tier
+    mapping(uint256 => string) public trumpRarityTier;
+
     // ============ Structs ============
 
     /// @notice Represents an offer to sell a Trump
@@ -79,6 +107,14 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
         uint256 trumpIndex;
         address bidder;
         uint256 value;
+    }
+
+    /// @notice Represents a custom message attached to a Trump (inspired by Pak's Censored)
+    struct TrumpMessage {
+        string message;        // The custom message (max 72 characters)
+        address author;        // Who wrote the message
+        uint256 timestamp;     // When it was written
+        uint256 valuePaid;     // How much they paid when setting the message
     }
 
     // ============ Events ============
@@ -104,6 +140,30 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
     /// @notice Emitted when a Trump is removed from sale
     event TrumpNoLongerForSale(uint256 indexed trumpIndex);
 
+    /// @notice Emitted when a custom message is set for a Trump
+    event MessageSet(uint256 indexed trumpIndex, address indexed author, string message, uint256 valuePaid);
+
+    /// @notice Emitted when royalty info is updated
+    event RoyaltyInfoUpdated(address indexed recipient, uint96 basisPoints);
+
+    /// @notice Emitted when minimum mint price is updated
+    event MinimumMintPriceUpdated(uint256 newPrice);
+
+    /// @notice Emitted when a contribution is received
+    event ContributionReceived(address indexed contributor, uint256 amount, uint256 indexed trumpIndex);
+
+    /// @notice Emitted when project treasury is updated
+    event ProjectTreasuryUpdated(address indexed oldTreasury, address indexed newTreasury);
+
+    /// @notice Emitted when merge contract is updated
+    event MergeContractUpdated(address indexed oldMergeContract, address indexed newMergeContract);
+
+    /// @notice Emitted when a Trump is burned
+    event TrumpBurned(uint256 indexed trumpId, address indexed burner, string rarityTier);
+
+    /// @notice Emitted when rarity tier is set
+    event RarityTierSet(uint256 indexed trumpId, string rarityTier);
+
     // ============ Errors ============
 
     error TrumpIndexOutOfRange();
@@ -123,16 +183,36 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
     error BidMustBePositive();
     error TrumpNotAssigned();
     error InvalidAddress();
+    error MessageTooLong();
+    error InsufficientMintPayment();
+    error InvalidRoyaltyBasisPoints();
+    error EmptyMessage();
+    error UnauthorizedBurner();
+    error TrumpCannotBeBurned();
 
     // ============ Constructor ============
 
     /**
      * @notice Initialize the CryptoTrump marketplace
+     * @param _treasury Project treasury address for royalties and contributions
+     */
+    constructor(
+        address _treasury
+    ) ERC721(COLLECTION_NAME, TOKEN_SYMBOL) Ownable(msg.sender) {
+        require(_treasury != address(0), "Invalid treasury address");
+
      */
     constructor() ERC721(COLLECTION_NAME, TOKEN_SYMBOL) Ownable(msg.sender) {
         nextTrumpIndexToAssign = 0;
         trumpsRemainingToAssign = TOTAL_TRUMPS;
         allTrumpsAssigned = false;
+
+        // Initialize royalty (3% to project treasury)
+        projectTreasury = _treasury;
+        _setDefaultRoyalty(_treasury, DEFAULT_ROYALTY_BPS);
+
+        // Set default minimum mint price (can be updated by owner)
+        minimumMintPrice = 0.01 ether;
     }
 
     // ============ Initial Distribution Functions ============
@@ -447,6 +527,92 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
         require(success, "Transfer failed");
     }
 
+    // ============ Custom Message Functions (Inspired by Pak's Censored) ============
+
+    /**
+     * @notice Set a custom message for your Trump
+     * @param trumpIndex Index of the Trump
+     * @param message Custom message (max 72 characters, like Pak's Censored)
+     */
+    function setTrumpMessage(uint256 trumpIndex, string calldata message) external payable nonReentrant whenNotPaused {
+        if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
+        if (!_exists(trumpIndex)) revert TrumpNotAssigned();
+        if (ownerOf(trumpIndex) != msg.sender) revert NotTrumpOwner();
+
+        bytes memory messageBytes = bytes(message);
+        if (messageBytes.length == 0) revert EmptyMessage();
+        if (messageBytes.length > MAX_MESSAGE_LENGTH) revert MessageTooLong();
+
+        trumpMessages[trumpIndex] = TrumpMessage({
+            message: message,
+            author: msg.sender,
+            timestamp: block.timestamp,
+            valuePaid: msg.value
+        });
+
+        if (msg.value > 0) {
+            totalContributions[msg.sender] += msg.value;
+            (bool success, ) = projectTreasury.call{value: msg.value}("");
+            require(success, "Transfer to treasury failed");
+            emit ContributionReceived(msg.sender, msg.value, trumpIndex);
+        }
+
+        emit MessageSet(trumpIndex, msg.sender, message, msg.value);
+    }
+
+    /**
+     * @notice Get the custom message for a Trump
+     * @param trumpIndex Index of the Trump
+     * @return The Trump message struct
+     */
+    function getTrumpMessage(uint256 trumpIndex) external view returns (TrumpMessage memory) {
+        return trumpMessages[trumpIndex];
+    }
+
+    /**
+     * @notice Mint a Trump with a custom message (pay-what-you-want above minimum)
+     * @param trumpIndex Index of the Trump to mint
+     * @param message Custom message to attach (max 72 characters)
+     */
+    function mintWithMessage(uint256 trumpIndex, string calldata message) external payable nonReentrant whenNotPaused {
+        if (!allTrumpsAssigned) revert TrumpsNotYetAssigned();
+        if (trumpsRemainingToAssign == 0) revert AllTrumpsAlreadyAssigned();
+        if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
+        if (_exists(trumpIndex)) revert TrumpAlreadyAssigned();
+        if (msg.value < minimumMintPrice) revert InsufficientMintPayment();
+
+        bytes memory messageBytes = bytes(message);
+        if (messageBytes.length > 0 && messageBytes.length > MAX_MESSAGE_LENGTH) revert MessageTooLong();
+
+        // Mint the Trump
+        _safeMint(msg.sender, trumpIndex);
+        trumpsRemainingToAssign--;
+        emit TrumpAssigned(msg.sender, trumpIndex);
+
+        // Set message if provided
+        if (messageBytes.length > 0) {
+            trumpMessages[trumpIndex] = TrumpMessage({
+                message: message,
+                author: msg.sender,
+                timestamp: block.timestamp,
+                valuePaid: msg.value
+            });
+            emit MessageSet(trumpIndex, msg.sender, message, msg.value);
+        }
+
+        // Handle payment (pay-what-you-want)
+        if (msg.value > 0) {
+            totalContributions[msg.sender] += msg.value;
+            (bool success, ) = projectTreasury.call{value: msg.value}("");
+            require(success, "Transfer to treasury failed");
+            emit ContributionReceived(msg.sender, msg.value, trumpIndex);
+        }
+    }
+
+    // ============ Cross-Chain Functions ============
+    // NOTE: Cross-chain functionality will be added in a future version with LayerZero V2
+    // For now, standard ERC721 transfers are supported
+
     // ============ Admin Functions ============
 
     /**
@@ -471,6 +637,112 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
         _baseTokenURI = baseURI;
     }
 
+    /**
+     * @notice Update royalty information (ERC2981)
+     * @param recipient Address to receive royalties
+     * @param basisPoints Royalty percentage in basis points (e.g., 300 = 3%)
+     */
+    function setRoyaltyInfo(address recipient, uint96 basisPoints) external onlyOwner {
+        if (recipient == address(0)) revert InvalidAddress();
+        if (basisPoints > 10000) revert InvalidRoyaltyBasisPoints(); // Max 100%
+
+        _setDefaultRoyalty(recipient, basisPoints);
+        emit RoyaltyInfoUpdated(recipient, basisPoints);
+    }
+
+    /**
+     * @notice Update minimum mint price for pay-what-you-want minting
+     * @param newPrice New minimum price in wei
+     */
+    function setMinimumMintPrice(uint256 newPrice) external onlyOwner {
+        minimumMintPrice = newPrice;
+        emit MinimumMintPriceUpdated(newPrice);
+    }
+
+    /**
+     * @notice Update project treasury address
+     * @param newTreasury New treasury address
+     */
+    function setProjectTreasury(address newTreasury) external onlyOwner {
+        if (newTreasury == address(0)) revert InvalidAddress();
+        address oldTreasury = projectTreasury;
+        projectTreasury = newTreasury;
+        emit ProjectTreasuryUpdated(oldTreasury, newTreasury);
+    }
+
+    /**
+     * @notice Set authorized merge contract
+     * @param _mergeContract Address of merge contract
+     */
+    function setMergeContract(address _mergeContract) external onlyOwner {
+        if (_mergeContract == address(0)) revert InvalidAddress();
+        address oldMergeContract = mergeContract;
+        mergeContract = _mergeContract;
+        emit MergeContractUpdated(oldMergeContract, _mergeContract);
+    }
+
+    /**
+     * @notice Set rarity tier for a Trump (owner or during setup)
+     * @param trumpId Trump ID
+     * @param rarityTier Rarity tier name
+     */
+    function setRarityTier(uint256 trumpId, string calldata rarityTier) external onlyOwner {
+        if (trumpId >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
+        trumpRarityTier[trumpId] = rarityTier;
+        emit RarityTierSet(trumpId, rarityTier);
+    }
+
+    /**
+     * @notice Batch set rarity tiers (for initial setup)
+     * @param trumpIds Array of Trump IDs
+     * @param rarityTiers Array of rarity tier names
+     */
+    function setRarityTierBatch(
+        uint256[] calldata trumpIds,
+        string[] calldata rarityTiers
+    ) external onlyOwner {
+        require(trumpIds.length == rarityTiers.length, "Array length mismatch");
+
+        for (uint256 i = 0; i < trumpIds.length; i++) {
+            if (trumpIds[i] < TOTAL_TRUMPS) {
+                trumpRarityTier[trumpIds[i]] = rarityTiers[i];
+                emit RarityTierSet(trumpIds[i], rarityTiers[i]);
+            }
+        }
+    }
+
+    // ============ Burn Functions (For Merge System) ============
+
+    /**
+     * @notice Burn a Trump NFT (only callable by authorized merge contract)
+     * @param trumpId Trump ID to burn
+     */
+    function burnTrump(uint256 trumpId) external nonReentrant {
+        if (msg.sender != mergeContract) revert UnauthorizedBurner();
+        if (trumpId >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
+        if (!_exists(trumpId)) revert TrumpNotAssigned();
+
+        // Get rarity before burning
+        string memory rarity = trumpRarityTier[trumpId];
+
+        // Remove from sale if listed
+        if (trumpsOfferedForSale[trumpId].isForSale) {
+            delete trumpsOfferedForSale[trumpId];
+        }
+
+        // Return bid if exists
+        if (trumpBids[trumpId].hasBid) {
+            Bid memory bid = trumpBids[trumpId];
+            pendingWithdrawals[bid.bidder] += bid.value;
+            delete trumpBids[trumpId];
+        }
+
+        // Burn the NFT
+        _burn(trumpId);
+
+        emit TrumpBurned(trumpId, tx.origin, rarity);
+    }
+
     // ============ View Functions ============
 
     /**
@@ -489,6 +761,18 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
      */
     function getTrumpBid(uint256 trumpIndex) external view returns (Bid memory) {
         return trumpBids[trumpIndex];
+    }
+
+    /**
+     * @notice Get rarity tier for a Trump
+     * @param trumpId Trump ID
+     * @return Rarity tier name
+     */
+    function getRarityTier(uint256 trumpId) external view returns (string memory) {
+        if (bytes(trumpRarityTier[trumpId]).length == 0) {
+            return "Common"; // Default if not set
+        }
+        return trumpRarityTier[trumpId];
     }
 
     /**
@@ -515,5 +799,20 @@ contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
         require(_exists(tokenId), "Token does not exist");
         return super.tokenURI(tokenId);
+    }
+
+    /**
+     * @notice Check interface support (ERC721 + ERC2981)
+     * @param interfaceId Interface identifier
+     * @return True if interface is supported
+     */
+    function supportsInterface(bytes4 interfaceId)
+        public
+        view
+        virtual
+        override(ERC721, ERC2981)
+        returns (bool)
+    {
+        return super.supportsInterface(interfaceId);
     }
 }

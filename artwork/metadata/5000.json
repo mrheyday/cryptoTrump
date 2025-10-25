@@ -1,0 +1,57 @@
+{
+  "name": "CryptoTrump #5000",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\n🌟 SPECIAL EDITION: The Billionaire\nThis is one of the rare special edition CryptoTrumps with a unique guaranteed trait combination!\n\nTrump #5000 features a volume max, winning smile expression, wearing a legendary gold, against a gold luxe background, with gold chain.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5000.svg",
+  "external_url": "https://cryptotrump.io/trump/5000",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Legendary Gold"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Chain"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 262.87
+    },
+    {
+      "trait_type": "Special Edition",
+      "value": "The Billionaire"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593701,
+  "dna": "0c2c44b16bca9c53"
+}

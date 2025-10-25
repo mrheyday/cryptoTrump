@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #6374",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #6374 features a golden swoop, confident smirk expression, wearing a gold accents, against a presidential blue background, with diamond hands.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/6374.svg",
+  "external_url": "https://cryptotrump.io/trump/6374",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Diamond Hands"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Presidential Aura"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 316.49
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593977,
+  "dna": "9d7a8a91e8527755"
+}

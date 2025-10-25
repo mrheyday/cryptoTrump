@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8205",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8205 features a golden swoop, shrug expression, wearing a patriot colors, against a marble elegance background, with dollar bills.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8205.svg",
+  "external_url": "https://cryptotrump.io/trump/8205",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Marble Elegance"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Shrug"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Patriot Colors"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Dollar Bills"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Diamond Shine"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 269.17
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594345,
+  "dna": "85ec2e6bcb85a0f2"
+}

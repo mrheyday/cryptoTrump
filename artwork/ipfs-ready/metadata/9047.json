@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9047",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9047 features a gravity defying, winning smile expression, wearing a charcoal grey, against a gold luxe background, with presidential seal.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9047.svg",
+  "external_url": "https://cryptotrump.io/trump/9047",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Gravity Defying"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Charcoal Grey"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Presidential Seal"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 133.9
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594518,
+  "dna": "49387b7bfeb1597d"
+}

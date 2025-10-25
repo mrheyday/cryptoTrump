@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #5783",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5783 features a volume max, thumbs up expression, wearing a classic red tie, against a trump tower gold background, with gold watch.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5783.svg",
+  "external_url": "https://cryptotrump.io/trump/5783",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Gold Watch"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 64.99
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593856,
+  "dna": "e383615af8bd9233"
+}

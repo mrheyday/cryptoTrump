@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #3529",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #3529 features a golden swoop, wink expression, wearing a pin stripe, against a trump tower gold background, with nft badge.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/3529.svg",
+  "external_url": "https://cryptotrump.io/trump/3529",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Wink"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Pin Stripe"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "NFT Badge"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Neon Outline"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 471.75
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593403,
+  "dna": "31827273ecfd8cc2"
+}

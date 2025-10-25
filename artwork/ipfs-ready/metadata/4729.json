@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #4729",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4729 features a power flow, confident smirk expression, wearing a luxury white, against a american flag background, with microphone.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4729.svg",
+  "external_url": "https://cryptotrump.io/trump/4729",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Luxury White"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Microphone"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 112.45
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593647,
+  "dna": "e1b9c080d8d1e146"
+}

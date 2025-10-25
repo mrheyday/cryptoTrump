@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #368",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #368 features a slicked back, confident smirk expression, wearing a golden blazer, against a maga red background, with briefcase.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/368.svg",
+  "external_url": "https://cryptotrump.io/trump/368",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Golden Blazer"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Briefcase"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Winning Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 229.33
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592726,
+  "dna": "e72d47a11ec53aa6"
+}

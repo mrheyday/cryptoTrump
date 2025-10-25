@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9611",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9611 features a golden swoop, peace sign expression, wearing a charcoal grey, against a twitter blue background, with pepe friend.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9611.svg",
+  "external_url": "https://cryptotrump.io/trump/9611",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Swoop"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Peace Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Charcoal Grey"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Pepe Friend"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "American Sparkles"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 294.03
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594633,
+  "dna": "158a331878e56d05"
+}

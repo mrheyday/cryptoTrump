@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #4247",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4247 features a rainbow mane, thumbs up expression, wearing a black tuxedo, against a maga red background, with golf club.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4247.svg",
+  "external_url": "https://cryptotrump.io/trump/4247",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Rainbow Mane"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Golf Club"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Presidential Aura"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 241.67
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593550,
+  "dna": "aacb5ae2585a2e83"
+}

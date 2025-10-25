@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #9836",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9836 features a wind blown, thumbs up expression, wearing a classic red tie, against a dollar green background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9836.svg",
+  "external_url": "https://cryptotrump.io/trump/9836",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Golden Glow"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Presidential Aura"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 115.7
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594681,
+  "dna": "2ffb28eddb2f8ee8"
+}

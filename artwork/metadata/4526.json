@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #4526",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4526 features a power flow, winning smile expression, wearing a patriot colors, against a gold luxe background, with trophy.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4526.svg",
+  "external_url": "https://cryptotrump.io/trump/4526",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Patriot Colors"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Trophy"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Crypto Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 271.33
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593607,
+  "dna": "6ba073c1b768bedc"
+}

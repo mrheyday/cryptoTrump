@@ -1,0 +1,45 @@
+{
+  "name": "CryptoTrump #9789",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9789 features a classic combover, pointing finger expression, wearing a commander chief, against a trump tower gold background.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9789.svg",
+  "external_url": "https://cryptotrump.io/trump/9789",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower Gold"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing Finger"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Commander Chief"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 92.76
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594671,
+  "dna": "a4c1cf1daef2cb88"
+}

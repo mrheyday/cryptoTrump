@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #5291",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #5291 features a presidential wave, thumbs up expression, wearing a black tuxedo, against a wall grey background, with ethereum logo.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/5291.svg",
+  "external_url": "https://cryptotrump.io/trump/5291",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential Wave"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Tuxedo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Ethereum Logo"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Fire Background"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 444.08
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593758,
+  "dna": "e419ac60e5ab92a1"
+}

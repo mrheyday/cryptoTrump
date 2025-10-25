@@ -27,7 +27,13 @@
     "lint": "solhint 'contracts/**/*.sol'",
     "lint:fix": "solhint 'contracts/**/*.sol' --fix",
     "format": "prettier --write 'contracts/**/*.sol' 'test/**/*.js' 'scripts/**/*.js'",
-    "clean": "hardhat clean"
+    "clean": "hardhat clean",
+    "generate:all": "node scripts/artwork/generateAll.js",
+    "generate:test": "node scripts/artwork/generateAll.js --count 100",
+    "generate:artwork": "node scripts/artwork/generateArtwork.js",
+    "generate:metadata": "node scripts/artwork/generateMetadata.js",
+    "prepare:ipfs": "node scripts/artwork/prepareIPFS.js",
+    "verify:artwork": "node scripts/artwork/verifyGeneration.js"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",

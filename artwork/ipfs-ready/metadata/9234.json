@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #9234",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9234 features a classic combover, thumbs up expression, wearing a ethereum purple, against a gold luxe background, with briefcase.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9234.svg",
+  "external_url": "https://cryptotrump.io/trump/9234",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Gold Luxe"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Ethereum Purple"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Briefcase"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Gold Shimmer"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 312.67
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594556,
+  "dna": "f5025c8f9f206b4d"
+}

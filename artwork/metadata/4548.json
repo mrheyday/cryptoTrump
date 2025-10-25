@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #4548",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #4548 features a volume max, winning smile expression, wearing a bitcoin orange, against a maga red background, with doge companion.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/4548.svg",
+  "external_url": "https://cryptotrump.io/trump/4548",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Bitcoin Orange"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Doge Companion"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 364.95
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593611,
+  "dna": "de156f12a6e65bf6"
+}

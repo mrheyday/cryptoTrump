@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #8593",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #8593 features a power flow, you're fired expression, wearing a legendary gold, against a wall grey background, with twitter bird.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/8593.svg",
+  "external_url": "https://cryptotrump.io/trump/8593",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Wall Grey"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Legendary Gold"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Twitter Bird"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Lightning Bolts"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 507.33
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594424,
+  "dna": "f4b7a49fd1601267"
+}

@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #2286",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #2286 features a power flow, air kiss expression, wearing a gold accents, against a twitter blue background, with golf club.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/2286.svg",
+  "external_url": "https://cryptotrump.io/trump/2286",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Twitter Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Air Kiss"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Gold Accents"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Golf Club"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Holographic"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 435.57
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593144,
+  "dna": "cc742ca5815aff9e"
+}

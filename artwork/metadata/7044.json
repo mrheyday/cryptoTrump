@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #7044",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #7044 features a silver fox, ok sign expression, wearing a blue power suit, against a presidential blue background, with scepter.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/7044.svg",
+  "external_url": "https://cryptotrump.io/trump/7044",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Silver Fox"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "OK Sign"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Power Suit"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Scepter"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Diamond Shine"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 478.11
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594113,
+  "dna": "a20f8132a1208aa3"
+}

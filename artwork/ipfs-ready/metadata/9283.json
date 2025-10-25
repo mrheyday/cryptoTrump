@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #9283",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #9283 features a power flow, winning smile expression, wearing a legendary gold, against a american flag background, with rocket.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/9283.svg",
+  "external_url": "https://cryptotrump.io/trump/9283",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Legendary Gold"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Rocket"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 365.29
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594566,
+  "dna": "99a8eeefdd66de2d"
+}

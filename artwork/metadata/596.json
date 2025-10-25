@@ -1,0 +1,53 @@
+{
+  "name": "CryptoTrump #596",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #596 features a wind blown, confident smirk expression, wearing a stars & stripes, against a dollar green background, with bitcoin symbol.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/596.svg",
+  "external_url": "https://cryptotrump.io/trump/596",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Dollar Green"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Presidential Bronze"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Wind Blown"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smirk"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Stars & Stripes"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Bitcoin Symbol"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Rainbow Trail"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 494
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592776,
+  "dna": "f48ada44e3c47502"
+}

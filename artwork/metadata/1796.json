@@ -1,0 +1,49 @@
+{
+  "name": "CryptoTrump #1796",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\nTrump #1796 features a volume max, winning smile expression, wearing a golden blazer, against a maga red background, with diamond hands.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1796.svg",
+  "external_url": "https://cryptotrump.io/trump/1796",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "MAGA Red"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Ultra Rare Gold"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Volume Max"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winning Smile"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Golden Blazer"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Diamond Hands"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 305.29
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376593042,
+  "dna": "74f55032c6494497"
+}

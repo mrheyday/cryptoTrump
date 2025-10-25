@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+
+    <radialGradient id="skinGradient">
+      <stop offset="0%" style="stop-color:#FFB347;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc8014;stop-opacity:1" />
+    </radialGradient>
+
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e58b00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1000" height="1000" fill="#FF0000"/>
+  
+
+  <!-- Body/Outfit Layer -->
+  
+      <g id="outfit">
+        <!-- Suit Shoulders -->
+        <rect x="250" y="550" width="500" height="400" fill="#003366" rx="20"/>
+
+        <!-- Tie -->
+        <polygon points="500,600 460,630 500,850 540,630" fill="#003366" />
+
+        <!-- Shirt -->
+        <rect x="400" y="570" width="200" height="100" fill="white"/>
+
+        <!-- Suit Lapels -->
+        <polygon points="400,590 300,750 350,800 420,630" fill="#000d40" />
+        <polygon points="600,590 700,750 650,800 580,630" fill="#000d40" />
+      </g>
+
+  <!-- Face/Skin Layer -->
+  
+      <g id="face">
+        <!-- Head -->
+        <ellipse cx="500" cy="350" rx="180" ry="220" fill="url(#skinGradient)"/>
+
+        <!-- Eyes -->
+        <ellipse cx="450" cy="330" rx="15" ry="20" fill="white"/>
+        <ellipse cx="550" cy="330" rx="15" ry="20" fill="white"/>
+        <circle cx="450" cy="335" r="8" fill="#003366"/>
+        <circle cx="550" cy="335" r="8" fill="#003366"/>
+
+        <!-- Nose -->
+        <path d="M 490,370 Q 500,390 510,370" fill="none" stroke="#d98d21" stroke-width="2"/>
+
+        <!-- Mouth -->
+        <path d="M 460,410 Q 500,420 540,410" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+
+        <!-- Eyebrows -->
+        <path d="M 430,300 Q 450,290 470,300" fill="none" stroke="#b26600" stroke-width="4" stroke-linecap="round"/>
+        <path d="M 570,300 Q 550,290 530,300" fill="none" stroke="#b26600" stroke-width="4" stroke-linecap="round"/>
+      </g>
+
+  <!-- Hair Layer -->
+  
+      <g id="hair">
+        <!-- Main Hair Mass -->
+        <ellipse cx="500" cy="220" rx="200" ry="80" fill="url(#hairGradient)"/>
+
+        <!-- Signature Swoop -->
+        <path d="M 320,220 Q 400,160 550,180 Q 650,190 680,230"
+              fill="url(#hairGradient)" opacity="0.9"/>
+
+        <!-- Hair Texture Lines -->
+        <path d="M 350,200 Q 420,170 500,185"
+              fill="none" stroke="#cc7200" stroke-width="2" opacity="0.6"/>
+        <path d="M 400,210 Q 470,175 540,190"
+              fill="none" stroke="#cc7200" stroke-width="2" opacity="0.6"/>
+
+        
+      </g>
+
+  <!-- Accessory Layer -->
+  
+        <g id="accessory">
+          <circle cx="800" cy="300" r="40" fill="#FF9900"/>
+          <text x="800" y="320" font-family="Arial, sans-serif" font-size="40" font-weight="bold"
+                fill="white" text-anchor="middle">₿</text>
+        </g>
+
+  <!-- Special Effect Layer -->
+  
+        <g id="specialEffect" opacity="0.4">
+          <circle cx="501.25224278565605" cy="842.2608441260901" r="10.815137463720745" fill="#FF4500"/><circle cx="669.995542028343" cy="873.8929839628684" r="7.8488758299509005" fill="#FF4500"/><circle cx="903.4358331759722" cy="878.7758063047944" r="5.19081052653608" fill="#FF4500"/><circle cx="651.312616400695" cy="845.4181574739276" r="8.266962993718845" fill="#FF4500"/><circle cx="12.380550302926396" cy="960.160723098804" r="10.312513978385061" fill="#FF4500"/><circle cx="142.38376848062595" cy="859.8795384948314" r="11.694288535328834" fill="#FF4500"/><circle cx="707.0469469837745" cy="875.644457205483" r="11.150701899768762" fill="#FF4500"/><circle cx="39.09719379528154" cy="838.9423764018197" r="11.705164236546917" fill="#FF4500"/><circle cx="684.4829072867715" cy="886.3132337951129" r="12.921388095549002" fill="#FF4500"/><circle cx="511.2954199595867" cy="851.4256009827853" r="11.615281801522118" fill="#FF4500"/><circle cx="548.2764966707263" cy="939.6794516416869" r="6.069150781009476" fill="#FF4500"/><circle cx="953.9080422116899" cy="885.6382730359152" r="11.789363378769275" fill="#FF4500"/><circle cx="47.998571720121234" cy="805.1427758364646" r="7.500934252258777" fill="#FF4500"/><circle cx="11.947599418675958" cy="861.1861718213696" r="14.963856105223773" fill="#FF4500"/><circle cx="163.81650013935322" cy="871.1113108298068" r="10.260207707703202" fill="#FF4500"/><circle cx="869.4986089905541" cy="924.0347809149658" r="5.574980606676485" fill="#FF4500"/><circle cx="422.29759861945706" cy="933.9603373648711" r="8.861513558197096" fill="#FF4500"/><circle cx="457.10030354107835" cy="921.8816887457888" r="5.326007747239969" fill="#FF4500"/><circle cx="190.81847159401156" cy="926.7784501219069" r="9.100071217804583" fill="#FF4500"/><circle cx="346.29171244443046" cy="899.5891883190133" r="5.738287916284584" fill="#FF4500"/>
+        </g>
+
+  <!-- Token ID Text -->
+  <text x="950" y="970" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="end" opacity="0.7">
+    #1153
+  </text>
+
+  
+</svg>
