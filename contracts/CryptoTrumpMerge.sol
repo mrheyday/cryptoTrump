@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "./MAGAToken.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "./interfaces/ICryptoTrumpMarketplace.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
 
@@ -37,7 +37,7 @@ contract CryptoTrumpMerge is Ownable, ReentrancyGuard {
 
     // ============ Interfaces ============
 
-    IERC721 public immutable trumpContract;
+    ICryptoTrumpMarketplace public immutable trumpContract;
     MAGAToken public immutable magaToken;
 
     // ============ State Variables ============
@@ -148,7 +148,7 @@ contract CryptoTrumpMerge is Ownable, ReentrancyGuard {
         require(_trumpContract != address(0), "Invalid trump contract");
         require(_magaToken != address(0), "Invalid MAGA contract");
 
-        trumpContract = IERC721(_trumpContract);
+        trumpContract = ICryptoTrumpMarketplace(_trumpContract);
         magaToken = MAGAToken(_magaToken);
 
         // Initialize rarity tiers
@@ -217,8 +217,8 @@ contract CryptoTrumpMerge is Ownable, ReentrancyGuard {
 
         emit TrumpsMerged(keepId, burnId, msg.sender, newPower, trumpPower[keepId].mergeCount);
 
-        // Note: Actual NFT burn should be done by main contract
-        // This contract tracks the logic, main contract handles NFT operations
+        // Burn the NFT through main contract
+        trumpContract.burnTrump(burnId);
     }
 
     /**
@@ -253,7 +253,9 @@ contract CryptoTrumpMerge is Ownable, ReentrancyGuard {
 
         emit TrumpBurnedForMAGA(trumpId, msg.sender, power, rarity, magaEarned);
 
-        // Note: Actual NFT burn should be done by main contract
+        // Burn the NFT through main contract
+        trumpContract.burnTrump(trumpId);
+
         return magaEarned;
     }
 
