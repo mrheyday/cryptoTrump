@@ -2,10 +2,10 @@
 pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/token/common/ERC2981.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/utils/Pausable.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/security/Pausable.sol";
+import "@layerzerolabs/lz-evm-oapp-v2/contracts/oft/OFT721.sol";
 
 /**
  * @title CryptoTrumpMarketplace
@@ -17,15 +17,13 @@ import "@openzeppelin/contracts/utils/Pausable.sol";
  * Features:
  * - 10,000 unique Trump-themed digital collectibles
  * - Full ERC721 standard compliance
- * - ERC2981 Royalty Standard (3% royalties)
- * - Custom messages (inspired by Pak's Censored)
- * - Pay-what-you-want minting
+ * - Cross-chain transfers via LayerZero V2
  * - Built-in marketplace for buying, selling, and bidding
  * - Solidity 0.8.20 with modern security patterns
  * - OpenZeppelin audited contracts
  * - Pausable for emergency situations
  */
-contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pausable {
+contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
 
     // ============ Constants ============
 
@@ -39,13 +37,7 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     string public constant TOKEN_SYMBOL = "TRUMP";
 
     /// @notice Version number
-    string public constant VERSION = "2.0.0";
-
-    /// @notice Maximum message length (inspired by Pak's Censored)
-    uint256 public constant MAX_MESSAGE_LENGTH = 72;
-
-    /// @notice Default royalty basis points (3% = 300 basis points)
-    uint96 public constant DEFAULT_ROYALTY_BPS = 300;
+    string public constant VERSION = "1.0.0";
 
     // ============ State Variables ============
 
@@ -70,18 +62,6 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     /// @notice Base URI for token metadata
     string private _baseTokenURI;
 
-    /// @notice Minimum mint price for pay-what-you-want minting
-    uint256 public minimumMintPrice;
-
-    /// @notice Mapping of custom messages for each Trump (inspired by Pak's Censored)
-    mapping(uint256 => TrumpMessage) public trumpMessages;
-
-    /// @notice Total contributions from pay-what-you-want minting
-    mapping(address => uint256) public totalContributions;
-
-    /// @notice Project treasury address for royalties and contributions
-    address public projectTreasury;
-
     // ============ Structs ============
 
     /// @notice Represents an offer to sell a Trump
@@ -99,14 +79,6 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
         uint256 trumpIndex;
         address bidder;
         uint256 value;
-    }
-
-    /// @notice Represents a custom message attached to a Trump (inspired by Pak's Censored)
-    struct TrumpMessage {
-        string message;        // The custom message (max 72 characters)
-        address author;        // Who wrote the message
-        uint256 timestamp;     // When it was written
-        uint256 valuePaid;     // How much they paid when setting the message
     }
 
     // ============ Events ============
@@ -132,20 +104,8 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     /// @notice Emitted when a Trump is removed from sale
     event TrumpNoLongerForSale(uint256 indexed trumpIndex);
 
-    /// @notice Emitted when a custom message is set for a Trump
-    event MessageSet(uint256 indexed trumpIndex, address indexed author, string message, uint256 valuePaid);
-
-    /// @notice Emitted when royalty info is updated
-    event RoyaltyInfoUpdated(address indexed recipient, uint96 basisPoints);
-
-    /// @notice Emitted when minimum mint price is updated
-    event MinimumMintPriceUpdated(uint256 newPrice);
-
-    /// @notice Emitted when a contribution is received
-    event ContributionReceived(address indexed contributor, uint256 amount, uint256 indexed trumpIndex);
-
-    /// @notice Emitted when project treasury is updated
-    event ProjectTreasuryUpdated(address indexed oldTreasury, address indexed newTreasury);
+    /// @notice Emitted when a cross-chain transfer is initiated
+    event CrossChainTransferInitiated(uint256 indexed trumpIndex, address indexed from, uint32 indexed dstEid, address to);
 
     // ============ Errors ============
 
@@ -166,32 +126,21 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     error BidMustBePositive();
     error TrumpNotAssigned();
     error InvalidAddress();
-    error MessageTooLong();
-    error InsufficientMintPayment();
-    error InvalidRoyaltyBasisPoints();
-    error EmptyMessage();
 
     // ============ Constructor ============
 
     /**
-     * @notice Initialize the CryptoTrump marketplace
-     * @param _treasury Project treasury address for royalties and contributions
+     * @notice Initialize the CryptoTrump marketplace with cross-chain capabilities
+     * @param _lzEndpoint LayerZero endpoint address for cross-chain messaging
+     * @param _delegate Address that can configure LayerZero settings
      */
     constructor(
-        address _treasury
-    ) ERC721(COLLECTION_NAME, TOKEN_SYMBOL) Ownable(msg.sender) {
-        require(_treasury != address(0), "Invalid treasury address");
-
+        address _lzEndpoint,
+        address _delegate
+    ) OFT721(COLLECTION_NAME, TOKEN_SYMBOL, _lzEndpoint, _delegate) {
         nextTrumpIndexToAssign = 0;
         trumpsRemainingToAssign = TOTAL_TRUMPS;
         allTrumpsAssigned = false;
-
-        // Initialize royalty (3% to project treasury)
-        projectTreasury = _treasury;
-        _setDefaultRoyalty(_treasury, DEFAULT_ROYALTY_BPS);
-
-        // Set default minimum mint price (can be updated by owner)
-        minimumMintPrice = 0.01 ether;
     }
 
     // ============ Initial Distribution Functions ============
@@ -495,91 +444,81 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
         require(success, "Transfer failed");
     }
 
-    // ============ Custom Message Functions (Inspired by Pak's Censored) ============
-
-    /**
-     * @notice Set a custom message for your Trump
-     * @param trumpIndex Index of the Trump
-     * @param message Custom message (max 72 characters, like Pak's Censored)
-     */
-    function setTrumpMessage(uint256 trumpIndex, string calldata message) external payable nonReentrant whenNotPaused {
-        if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
-        if (!_exists(trumpIndex)) revert TrumpNotAssigned();
-        if (ownerOf(trumpIndex) != msg.sender) revert NotTrumpOwner();
-
-        bytes memory messageBytes = bytes(message);
-        if (messageBytes.length == 0) revert EmptyMessage();
-        if (messageBytes.length > MAX_MESSAGE_LENGTH) revert MessageTooLong();
-
-        trumpMessages[trumpIndex] = TrumpMessage({
-            message: message,
-            author: msg.sender,
-            timestamp: block.timestamp,
-            valuePaid: msg.value
-        });
-
-        if (msg.value > 0) {
-            totalContributions[msg.sender] += msg.value;
-            (bool success, ) = projectTreasury.call{value: msg.value}("");
-            require(success, "Transfer to treasury failed");
-            emit ContributionReceived(msg.sender, msg.value, trumpIndex);
-        }
-
-        emit MessageSet(trumpIndex, msg.sender, message, msg.value);
-    }
-
-    /**
-     * @notice Get the custom message for a Trump
-     * @param trumpIndex Index of the Trump
-     * @return The Trump message struct
-     */
-    function getTrumpMessage(uint256 trumpIndex) external view returns (TrumpMessage memory) {
-        return trumpMessages[trumpIndex];
-    }
-
-    /**
-     * @notice Mint a Trump with a custom message (pay-what-you-want above minimum)
-     * @param trumpIndex Index of the Trump to mint
-     * @param message Custom message to attach (max 72 characters)
-     */
-    function mintWithMessage(uint256 trumpIndex, string calldata message) external payable nonReentrant whenNotPaused {
-        if (!allTrumpsAssigned) revert TrumpsNotYetAssigned();
-        if (trumpsRemainingToAssign == 0) revert AllTrumpsAlreadyAssigned();
-        if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
-        if (_exists(trumpIndex)) revert TrumpAlreadyAssigned();
-        if (msg.value < minimumMintPrice) revert InsufficientMintPayment();
-
-        bytes memory messageBytes = bytes(message);
-        if (messageBytes.length > 0 && messageBytes.length > MAX_MESSAGE_LENGTH) revert MessageTooLong();
-
-        // Mint the Trump
-        _safeMint(msg.sender, trumpIndex);
-        trumpsRemainingToAssign--;
-        emit TrumpAssigned(msg.sender, trumpIndex);
-
-        // Set message if provided
-        if (messageBytes.length > 0) {
-            trumpMessages[trumpIndex] = TrumpMessage({
-                message: message,
-                author: msg.sender,
-                timestamp: block.timestamp,
-                valuePaid: msg.value
-            });
-            emit MessageSet(trumpIndex, msg.sender, message, msg.value);
-        }
-
-        // Handle payment (pay-what-you-want)
-        if (msg.value > 0) {
-            totalContributions[msg.sender] += msg.value;
-            (bool success, ) = projectTreasury.call{value: msg.value}("");
-            require(success, "Transfer to treasury failed");
-            emit ContributionReceived(msg.sender, msg.value, trumpIndex);
-        }
-    }
-
     // ============ Cross-Chain Functions ============
-    // NOTE: Cross-chain functionality will be added in a future version with LayerZero V2
-    // For now, standard ERC721 transfers are supported
+
+    /**
+     * @notice Send a Trump to another chain
+     * @param trumpIndex Index of the Trump to send
+     * @param dstEid Destination chain endpoint ID
+     * @param to Recipient address on destination chain
+     * @param options LayerZero message options
+     */
+    function sendTrumpCrossChain(
+        uint256 trumpIndex,
+        uint32 dstEid,
+        address to,
+        bytes calldata options
+    ) external payable nonReentrant whenNotPaused {
+        if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
+        if (ownerOf(trumpIndex) != msg.sender) revert NotTrumpOwner();
+        if (to == address(0)) revert InvalidAddress();
+
+        if (trumpsOfferedForSale[trumpIndex].isForSale) {
+            _removeTrumpFromSale(trumpIndex);
+        }
+
+        if (trumpBids[trumpIndex].hasBid) {
+            Bid memory bid = trumpBids[trumpIndex];
+            pendingWithdrawals[bid.bidder] += bid.value;
+            delete trumpBids[trumpIndex];
+        }
+
+        bytes32 toBytes32 = bytes32(uint256(uint160(to)));
+
+        send(
+            SendParam({
+                dstEid: dstEid,
+                to: toBytes32,
+                tokenId: trumpIndex,
+                extraOptions: options,
+                composeMsg: "",
+                oftCmd: ""
+            }),
+            MessagingFee({nativeFee: msg.value, lzTokenFee: 0}),
+            payable(msg.sender)
+        );
+
+        emit CrossChainTransferInitiated(trumpIndex, msg.sender, dstEid, to);
+    }
+
+    /**
+     * @notice Quote the fee for cross-chain transfer
+     * @param trumpIndex Index of the Trump
+     * @param dstEid Destination endpoint ID
+     * @param to Recipient address
+     * @param options LayerZero options
+     * @return fee The messaging fee required
+     */
+    function quoteSendTrump(
+        uint256 trumpIndex,
+        uint32 dstEid,
+        address to,
+        bytes calldata options
+    ) external view returns (MessagingFee memory fee) {
+        bytes32 toBytes32 = bytes32(uint256(uint160(to)));
+
+        return quoteSend(
+            SendParam({
+                dstEid: dstEid,
+                to: toBytes32,
+                tokenId: trumpIndex,
+                extraOptions: options,
+                composeMsg: "",
+                oftCmd: ""
+            }),
+            false
+        );
+    }
 
     // ============ Admin Functions ============
 
@@ -603,39 +542,6 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
      */
     function setBaseURI(string calldata baseURI) external onlyOwner {
         _baseTokenURI = baseURI;
-    }
-
-    /**
-     * @notice Update royalty information (ERC2981)
-     * @param recipient Address to receive royalties
-     * @param basisPoints Royalty percentage in basis points (e.g., 300 = 3%)
-     */
-    function setRoyaltyInfo(address recipient, uint96 basisPoints) external onlyOwner {
-        if (recipient == address(0)) revert InvalidAddress();
-        if (basisPoints > 10000) revert InvalidRoyaltyBasisPoints(); // Max 100%
-
-        _setDefaultRoyalty(recipient, basisPoints);
-        emit RoyaltyInfoUpdated(recipient, basisPoints);
-    }
-
-    /**
-     * @notice Update minimum mint price for pay-what-you-want minting
-     * @param newPrice New minimum price in wei
-     */
-    function setMinimumMintPrice(uint256 newPrice) external onlyOwner {
-        minimumMintPrice = newPrice;
-        emit MinimumMintPriceUpdated(newPrice);
-    }
-
-    /**
-     * @notice Update project treasury address
-     * @param newTreasury New treasury address
-     */
-    function setProjectTreasury(address newTreasury) external onlyOwner {
-        if (newTreasury == address(0)) revert InvalidAddress();
-        address oldTreasury = projectTreasury;
-        projectTreasury = newTreasury;
-        emit ProjectTreasuryUpdated(oldTreasury, newTreasury);
     }
 
     // ============ View Functions ============
@@ -682,20 +588,5 @@ contract CryptoTrumpMarketplace is ERC721, ERC2981, Ownable, ReentrancyGuard, Pa
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
         require(_exists(tokenId), "Token does not exist");
         return super.tokenURI(tokenId);
-    }
-
-    /**
-     * @notice Check interface support (ERC721 + ERC2981)
-     * @param interfaceId Interface identifier
-     * @return True if interface is supported
-     */
-    function supportsInterface(bytes4 interfaceId)
-        public
-        view
-        virtual
-        override(ERC721, ERC2981)
-        returns (bool)
-    {
-        return super.supportsInterface(interfaceId);
     }
 }
