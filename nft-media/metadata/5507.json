@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #5507",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Uncommon Trump features Thumbs Up with Black Suit White Tie. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/5507.png",
+  "external_url": "https://cryptotrump.io/trump/5507",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Thumbs Up",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Windswept",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Black Suit White Tie",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Gold Watch",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Patriotic Glow",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Border",
+      "value": "American Flag",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 13,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

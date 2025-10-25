@@ -1,0 +1,33 @@
+{
+  "name": "CryptoTrump #0 - The Original Trump",
+  "description": "The very first CryptoTrump - Genesis Edition",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/0.png",
+  "external_url": "https://cryptotrump.io/trump/0",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Special Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Unique",
+      "value": "1 of 1"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  }
+}

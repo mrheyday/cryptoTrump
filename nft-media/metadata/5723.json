@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #5723",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Rare Trump features Confident Smile with MAGA Hat & Suit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/5723.png",
+  "external_url": "https://cryptotrump.io/trump/5723",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Air Force One",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smile",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Windswept",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "MAGA Hat & Suit",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Gold Chain",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 25,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

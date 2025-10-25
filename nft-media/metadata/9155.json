@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #9155",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Legendary Trump features Double Thumbs Up with Tuxedo. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/9155.png",
+  "external_url": "https://cryptotrump.io/trump/9155",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Double Thumbs Up",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Presidential",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tuxedo",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Gold Watch",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Golden Aura",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Animated Rainbow",
+      "rarity": "Mythic"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "1 of 1 Special",
+      "rarity": "Mythic"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 81,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

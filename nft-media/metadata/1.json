@@ -1,0 +1,33 @@
+{
+  "name": "CryptoTrump #1 - Golden Trump",
+  "description": "100% Gold everything - The most tremendous!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/1.png",
+  "external_url": "https://cryptotrump.io/trump/1",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Special Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Unique",
+      "value": "1 of 1"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  }
+}

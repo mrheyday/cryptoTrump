@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #8629",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Rare Trump features Winking with Golf Outfit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/8629.png",
+  "external_url": "https://cryptotrump.io/trump/8629",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Seal",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winking",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Perfect Coif",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Golf Outfit",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Presidential Pin",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Golden Aura",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Border",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 20,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

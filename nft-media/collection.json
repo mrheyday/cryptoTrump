@@ -1,0 +1,227 @@
+{
+  "name": "CryptoTrump",
+  "description": "🇺🇸 CryptoTrump is a collection of 10,000 unique Trump-themed NFT collectibles living on the Ethereum blockchain. Each Trump is unique and programmatically generated from over 70 possible traits, including backgrounds, expressions, outfits, hair styles, accessories, and special effects. Make NFTs Great Again! 🇺🇸",
+  "image": "ipfs://YOUR_COLLECTION_IMAGE_CID/collection.png",
+  "external_link": "https://cryptotrump.io",
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "0x0000000000000000000000000000000000000000",
+  "social_links": {
+    "twitter": "https://twitter.com/CryptoTrump",
+    "discord": "https://discord.gg/cryptotrump",
+    "website": "https://cryptotrump.io"
+  },
+  "collection_info": {
+    "total_supply": 10000,
+    "contract_address": "TBD",
+    "blockchain": "Ethereum",
+    "token_standard": "ERC721",
+    "cross_chain": true,
+    "cross_chain_protocol": "LayerZero V2",
+    "launch_date": "TBD"
+  },
+  "traits": {
+    "background": {
+      "category": "Background",
+      "count": 15,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
+    },
+    "expression": {
+      "category": "Expression",
+      "count": 10,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
+    },
+    "hair_style": {
+      "category": "Hair Style",
+      "count": 9,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
+    },
+    "outfit": {
+      "category": "Outfit",
+      "count": 10,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
+    },
+    "accessories": {
+      "category": "Accessories",
+      "count": 9,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
+    },
+    "special_effects": {
+      "category": "Special Effects",
+      "count": 8,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
+    },
+    "border": {
+      "category": "Border",
+      "count": 7,
+      "rarity_levels": ["Common", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"]
+    },
+    "edition": {
+      "category": "Edition",
+      "count": 4,
+      "rarity_levels": ["Common", "Epic", "Legendary", "Mythic"]
+    }
+  },
+  "rarity_tiers": {
+    "common": {
+      "name": "Common",
+      "color": "#FFFFFF",
+      "probability": 0.50,
+      "description": "Standard CryptoTrump"
+    },
+    "uncommon": {
+      "name": "Uncommon",
+      "color": "#00FF00",
+      "probability": 0.25,
+      "description": "Slightly rare CryptoTrump"
+    },
+    "rare": {
+      "name": "Rare",
+      "color": "#0099FF",
+      "probability": 0.15,
+      "description": "Rare CryptoTrump"
+    },
+    "epic": {
+      "name": "Epic",
+      "color": "#9966FF",
+      "probability": 0.07,
+      "description": "Epic CryptoTrump"
+    },
+    "legendary": {
+      "name": "Legendary",
+      "color": "#FF6600",
+      "probability": 0.025,
+      "description": "Legendary CryptoTrump"
+    },
+    "mythic": {
+      "name": "Mythic",
+      "color": "#FF0000",
+      "probability": 0.005,
+      "description": "Mythic CryptoTrump - Ultra Rare!"
+    }
+  },
+  "special_editions": [
+    {
+      "id": 0,
+      "name": "The Original Trump",
+      "description": "The very first CryptoTrump - Genesis Edition",
+      "rarity": "Mythic",
+      "unique": true
+    },
+    {
+      "id": 1,
+      "name": "Golden Trump",
+      "description": "100% Gold everything - The most tremendous!",
+      "rarity": "Mythic",
+      "unique": true
+    },
+    {
+      "id": 2,
+      "name": "Presidential Trump",
+      "description": "Official Presidential Edition",
+      "rarity": "Mythic",
+      "unique": true
+    },
+    {
+      "id": 45,
+      "name": "45th President Trump",
+      "description": "Commemorating the 45th President",
+      "rarity": "Mythic",
+      "unique": true
+    },
+    {
+      "id": 47,
+      "name": "47th President Trump",
+      "description": "Future Presidential Edition",
+      "rarity": "Mythic",
+      "unique": true
+    }
+  ],
+  "statistics": {
+    "total_traits": 79,
+    "total_categories": 8,
+    "possible_combinations": 3628800,
+    "actual_nfts": 10000,
+    "uniqueness_guaranteed": true
+  },
+  "roadmap": {
+    "phase_1": {
+      "name": "Development",
+      "status": "Complete",
+      "items": [
+        "Smart contract development",
+        "Comprehensive testing",
+        "Documentation",
+        "Deployment scripts"
+      ]
+    },
+    "phase_2": {
+      "name": "Launch Preparation",
+      "status": "In Progress",
+      "items": [
+        "Create Trump artwork (10,000 unique images)",
+        "Upload metadata to IPFS",
+        "Security audit",
+        "Deploy to testnets"
+      ]
+    },
+    "phase_3": {
+      "name": "Distribution",
+      "status": "Planned",
+      "items": [
+        "Initial Trump assignment",
+        "Public claiming phase",
+        "Marketplace activation",
+        "Community distribution"
+      ]
+    },
+    "phase_4": {
+      "name": "Cross-Chain Expansion",
+      "status": "Planned",
+      "items": [
+        "Deploy on multiple chains",
+        "Configure LayerZero peers",
+        "Enable cross-chain transfers",
+        "Multi-chain marketplace"
+      ]
+    },
+    "phase_5": {
+      "name": "Ecosystem",
+      "status": "Planned",
+      "items": [
+        "Frontend dApp",
+        "Mobile app",
+        "Trading analytics",
+        "Community features",
+        "Governance (future)"
+      ]
+    }
+  },
+  "technical_details": {
+    "solidity_version": "0.8.20",
+    "framework": "Hardhat",
+    "dependencies": {
+      "openzeppelin": "5.0.1",
+      "layerzero": "V2"
+    },
+    "security": [
+      "ReentrancyGuard",
+      "Pausable",
+      "Ownable",
+      "Custom Errors",
+      "Input Validation"
+    ],
+    "gas_optimized": true,
+    "cross_chain_enabled": true
+  },
+  "legal": {
+    "license": "MIT",
+    "disclaimer": "This project is for educational and entertainment purposes. CryptoTrump is not affiliated with, endorsed by, or connected to any political figure or entity. Always DYOR (Do Your Own Research) before participating in any NFT project.",
+    "terms_of_service": "https://cryptotrump.io/terms",
+    "privacy_policy": "https://cryptotrump.io/privacy"
+  },
+  "created": "2025-10-25",
+  "version": "1.0.0",
+  "metadata_standard": "OpenSea",
+  "ipfs_metadata_cid": "TBD",
+  "ipfs_images_cid": "TBD"
+}

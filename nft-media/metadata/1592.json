@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #1592",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Legendary Trump features Pointing with Red Tie. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/1592.png",
+  "external_url": "https://cryptotrump.io/trump/1592",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mount Rushmore",
+      "rarity": "Legendary"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Crown Hair",
+      "rarity": "Mythic"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Red Tie",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Presidential Pin",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Fireworks",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Gold",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 63,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

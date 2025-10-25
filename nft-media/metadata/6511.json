@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #6511",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Rare Trump features Pointing with Tuxedo. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/6511.png",
+  "external_url": "https://cryptotrump.io/trump/6511",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Oval Office",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Pointing",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Windswept",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Tuxedo",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "American Flag Pin",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Founders Edition",
+      "rarity": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 31,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}
