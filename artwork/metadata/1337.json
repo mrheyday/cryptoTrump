@@ -1,0 +1,57 @@
+{
+  "name": "CryptoTrump #1337",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\n🌟 SPECIAL EDITION: The Meme Lord\nThis is one of the rare special edition CryptoTrumps with a unique guaranteed trait combination!\n\nTrump #1337 features a power flow, legendary pose expression, wearing a classic red tie, against a presidential blue background, with laser eyes.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/1337.svg",
+  "external_url": "https://cryptotrump.io/trump/1337",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Presidential Blue"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Tropical Orange"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Power Flow"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Legendary Pose"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Classic Red Tie"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Laser Eyes"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Legendary Cosmic"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 647.39
+    },
+    {
+      "trait_type": "Special Edition",
+      "value": "The Meme Lord"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376592947,
+  "dna": "5235870e2303f51e"
+}

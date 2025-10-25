@@ -1,0 +1,57 @@
+{
+  "name": "CryptoTrump #6969",
+  "description": "One of 10,000 unique Trump-themed collectibles\n\n🌟 SPECIAL EDITION: The Crypto King\nThis is one of the rare special edition CryptoTrumps with a unique guaranteed trait combination!\n\nTrump #6969 features a classic combover, you're fired expression, wearing a bitcoin orange, against a diamond rare background, with bitcoin symbol.\n\n🇺🇸 Make NFTs Great Again! 🇺🇸\n\nBuilt on the Ethereum blockchain with cross-chain capabilities powered by LayerZero V2.",
+  "image": "ipfs://YOUR_IPFS_HASH/images/6969.svg",
+  "external_url": "https://cryptotrump.io/trump/6969",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Diamond Rare"
+    },
+    {
+      "trait_type": "Skin Tone",
+      "value": "Classic Tan"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Combover"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "You're Fired"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Bitcoin Orange"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Bitcoin Symbol"
+    },
+    {
+      "trait_type": "Special Effect",
+      "value": "Crypto Glow"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Rarity Score",
+      "value": 430
+    },
+    {
+      "trait_type": "Special Edition",
+      "value": "The Crypto King"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Generation",
+      "value": 1
+    }
+  ],
+  "compiler": "CryptoTrump Generator v1.0.0",
+  "date": 1761376594099,
+  "dna": "18f8806fd9cc6590"
+}

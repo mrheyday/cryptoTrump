@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+
+    <radialGradient id="skinGradient">
+      <stop offset="0%" style="stop-color:#FF8C00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc5900;stop-opacity:1" />
+    </radialGradient>
+
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFA500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e58b00;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1000" height="1000" fill="#FFD700"/>
+  
+
+  <!-- Body/Outfit Layer -->
+  
+      <g id="outfit">
+        <!-- Suit Shoulders -->
+        <rect x="250" y="550" width="500" height="400" fill="#000080" rx="20"/>
+
+        <!-- Tie -->
+        <polygon points="500,600 460,630 500,850 540,630" fill="#003366" />
+
+        <!-- Shirt -->
+        <rect x="400" y="570" width="200" height="100" fill="white"/>
+
+        <!-- Suit Lapels -->
+        <polygon points="400,590 300,750 350,800 420,630" fill="#00005a" />
+        <polygon points="600,590 700,750 650,800 580,630" fill="#00005a" />
+      </g>
+
+  <!-- Face/Skin Layer -->
+  
+      <g id="face">
+        <!-- Head -->
+        <ellipse cx="500" cy="350" rx="180" ry="220" fill="url(#skinGradient)"/>
+
+        <!-- Eyes -->
+        <ellipse cx="450" cy="330" rx="15" ry="20" fill="white"/>
+        <ellipse cx="550" cy="330" rx="15" ry="20" fill="white"/>
+        <circle cx="450" cy="335" r="8" fill="#003366"/>
+        <circle cx="550" cy="335" r="8" fill="#003366"/>
+
+        <!-- Nose -->
+        <path d="M 490,370 Q 500,390 510,370" fill="none" stroke="#d96600" stroke-width="2"/>
+
+        <!-- Mouth -->
+        <line x1="460" y1="410" x2="540" y2="410" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+
+        <!-- Eyebrows -->
+        <path d="M 430,300 Q 450,290 470,300" fill="none" stroke="#b23f00" stroke-width="4" stroke-linecap="round"/>
+        <path d="M 570,300 Q 550,290 530,300" fill="none" stroke="#b23f00" stroke-width="4" stroke-linecap="round"/>
+      </g>
+
+  <!-- Hair Layer -->
+  
+      <g id="hair">
+        <!-- Main Hair Mass -->
+        <ellipse cx="500" cy="220" rx="200" ry="80" fill="url(#hairGradient)"/>
+
+        <!-- Signature Swoop -->
+        <path d="M 320,220 Q 400,160 550,180 Q 650,190 680,230"
+              fill="url(#hairGradient)" opacity="0.9"/>
+
+        <!-- Hair Texture Lines -->
+        <path d="M 350,200 Q 420,170 500,185"
+              fill="none" stroke="#cc7200" stroke-width="2" opacity="0.6"/>
+        <path d="M 400,210 Q 470,175 540,190"
+              fill="none" stroke="#cc7200" stroke-width="2" opacity="0.6"/>
+
+        
+      </g>
+
+  <!-- Accessory Layer -->
+  
+        <g id="accessory">
+          <ellipse cx="500" cy="150" rx="180" ry="30" fill="#FF0000"/>
+          <path d="M 300,150 Q 500,120 700,150"
+                fill="#FF0000"/>
+          <text x="500" y="160" font-family="Arial, sans-serif" font-size="24" font-weight="bold"
+                fill="white" text-anchor="middle">MAGA</text>
+        </g>
+
+  <!-- Special Effect Layer -->
+  
+        <g id="specialEffect" opacity="0.4">
+          <circle cx="281.81158862885525" cy="852.2933717496318" r="7.067434498332464" fill="#FF4500"/><circle cx="74.20558995140625" cy="897.336467590192" r="14.362832895274124" fill="#FF4500"/><circle cx="867.8431152116736" cy="813.110330827958" r="9.442569318493732" fill="#FF4500"/><circle cx="726.6320160234881" cy="816.9592825736097" r="11.204806336204422" fill="#FF4500"/><circle cx="192.54651937735346" cy="853.0762654195244" r="13.487881813474198" fill="#FF4500"/><circle cx="798.1382203709961" cy="918.3566691732044" r="8.666030136151345" fill="#FF4500"/><circle cx="400.8534344741084" cy="924.9020014511582" r="5.520651395971701" fill="#FF4500"/><circle cx="645.828697890533" cy="864.1239876005136" r="12.235296599244842" fill="#FF4500"/><circle cx="241.38690954968544" cy="852.7936167438821" r="8.586120430457058" fill="#FF4500"/><circle cx="255.54879325999934" cy="843.7978299953045" r="12.344612156122421" fill="#FF4500"/><circle cx="626.62778590929" cy="860.0080326783136" r="6.846168321084822" fill="#FF4500"/><circle cx="556.7756979635958" cy="966.8257344757684" r="5.422062492871483" fill="#FF4500"/><circle cx="158.8411368744289" cy="869.1363209950631" r="7.478690968649158" fill="#FF4500"/><circle cx="622.3750150066114" cy="976.5976490614631" r="7.010237806562802" fill="#FF4500"/><circle cx="229.73586074271756" cy="904.96370998542" r="13.37469770209083" fill="#FF4500"/><circle cx="286.7380262594632" cy="928.1412418025399" r="13.237356843844353" fill="#FF4500"/><circle cx="547.5598597956599" cy="811.8432598087884" r="11.463008939901345" fill="#FF4500"/><circle cx="868.501966795101" cy="941.2415698112122" r="11.901016411304226" fill="#FF4500"/><circle cx="406.0196412900505" cy="895.1650066845667" r="6.8780777688682075" fill="#FF4500"/><circle cx="626.7255648657666" cy="817.8782349943996" r="5.5887726251614005" fill="#FF4500"/>
+        </g>
+
+  <!-- Token ID Text -->
+  <text x="950" y="970" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="end" opacity="0.7">
+    #7813
+  </text>
+
+  
+</svg>
