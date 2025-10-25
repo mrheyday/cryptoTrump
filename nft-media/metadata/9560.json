@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #9560",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Uncommon Trump features Winking with Blue Suit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/9560.png",
+  "external_url": "https://cryptotrump.io/trump/9560",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Winking",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Slicked Back",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Suit",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "American Flag Pin",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Silver",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 17,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

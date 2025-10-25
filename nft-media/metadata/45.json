@@ -1,0 +1,33 @@
+{
+  "name": "CryptoTrump #45 - 45th President Trump",
+  "description": "Commemorating the 45th President",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/45.png",
+  "external_url": "https://cryptotrump.io/trump/45",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Special Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Unique",
+      "value": "1 of 1"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  }
+}

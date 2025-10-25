@@ -1,0 +1,8 @@
+{
+  "name": "CryptoTrump",
+  "description": "10,000 unique Trump-themed NFT collectibles with cross-chain capabilities. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/collection.png",
+  "external_link": "https://cryptotrump.io",
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "YOUR_CREATOR_ADDRESS"
+}

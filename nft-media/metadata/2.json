@@ -1,0 +1,33 @@
+{
+  "name": "CryptoTrump #2 - Presidential Trump",
+  "description": "Official Presidential Edition",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/2.png",
+  "external_url": "https://cryptotrump.io/trump/2",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Special Edition"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Mythic"
+    },
+    {
+      "trait_type": "Unique",
+      "value": "1 of 1"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  }
+}

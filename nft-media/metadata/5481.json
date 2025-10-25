@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #5481",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Legendary Trump features America First Gesture with Golf Outfit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/5481.png",
+  "external_url": "https://cryptotrump.io/trump/5481",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Mar-a-Lago",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "America First Gesture",
+      "rarity": "Legendary"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Golden Locks",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Golf Outfit",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "MAGA Hat",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Fireworks",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Animated Rainbow",
+      "rarity": "Mythic"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 69,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

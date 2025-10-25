@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #4979",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Epic Trump features Serious with MAGA Hat & Suit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/4979.png",
+  "external_url": "https://cryptotrump.io/trump/4979",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue Sky",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Serious",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Perfect Coif",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "MAGA Hat & Suit",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "Presidential Medal",
+      "rarity": "Legendary"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "American Flag",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "First Edition",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 37,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

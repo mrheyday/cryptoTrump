@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #3762",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Epic Trump features America First Gesture with Red Tie. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/3762.png",
+  "external_url": "https://cryptotrump.io/trump/3762",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Air Force One",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "America First Gesture",
+      "rarity": "Legendary"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Pompadour",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Red Tie",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "American Flag Overlay",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Silver",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 36,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

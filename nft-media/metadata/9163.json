@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #9163",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Common Trump features Confident Smile with Blue Suit. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/9163.png",
+  "external_url": "https://cryptotrump.io/trump/9163",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "American Flag",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smile",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Blonde",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Blue Suit",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Gold",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "Standard",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 9,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}

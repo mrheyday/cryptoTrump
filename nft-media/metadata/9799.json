@@ -1,0 +1,71 @@
+{
+  "name": "CryptoTrump #9799",
+  "description": "One of 10,000 unique CryptoTrump NFT collectibles living on the Ethereum blockchain. This Rare Trump features Confident Smile with Red Tie. Make NFTs Great Again!",
+  "image": "ipfs://YOUR_IPFS_HASH_HERE/9799.png",
+  "external_url": "https://cryptotrump.io/trump/9799",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Trump Tower",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Expression",
+      "value": "Confident Smile",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hair Style",
+      "value": "Classic Blonde",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Red Tie",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Accessories",
+      "value": "None",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Special Effects",
+      "value": "Golden Aura",
+      "rarity": "Rare"
+    },
+    {
+      "trait_type": "Border",
+      "value": "Gold",
+      "rarity": "Uncommon"
+    },
+    {
+      "trait_type": "Edition",
+      "value": "First Edition",
+      "rarity": "Epic"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 20,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "category": "nft",
+    "creators": [
+      {
+        "address": "YOUR_CREATOR_ADDRESS",
+        "share": 100
+      }
+    ]
+  },
+  "collection": {
+    "name": "CryptoTrump",
+    "family": "Trump"
+  },
+  "compiler": "CryptoTrump Metadata Generator v1.0"
+}
