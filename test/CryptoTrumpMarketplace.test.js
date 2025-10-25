@@ -7,18 +7,11 @@ describe("CryptoTrumpMarketplace", function () {
   async function deployCryptoTrumpFixture() {
     const [owner, addr1, addr2, addr3] = await ethers.getSigners();
 
-    // Deploy a mock LayerZero endpoint
-    const MockLZEndpoint = await ethers.getContractFactory("MockLZEndpoint");
-    const lzEndpoint = await MockLZEndpoint.deploy();
-
     // Deploy CryptoTrumpMarketplace
     const CryptoTrumpMarketplace = await ethers.getContractFactory("CryptoTrumpMarketplace");
-    const cryptoTrump = await CryptoTrumpMarketplace.deploy(
-      await lzEndpoint.getAddress(),
-      owner.address
-    );
+    const cryptoTrump = await CryptoTrumpMarketplace.deploy();
 
-    return { cryptoTrump, lzEndpoint, owner, addr1, addr2, addr3 };
+    return { cryptoTrump, owner, addr1, addr2, addr3 };
   }
 
   describe("Deployment", function () {
