@@ -13,6 +13,12 @@ cache/
 artifacts/
 typechain-types/
 
+# Foundry
+cache_foundry/
+out/
+broadcast/
+lib/forge-std/
+
 # Coverage
 coverage/
 coverage.json
