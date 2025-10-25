@@ -3,27 +3,27 @@ pragma solidity ^0.8.20;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
-import "@openzeppelin/contracts/security/Pausable.sol";
-import "@layerzerolabs/lz-evm-oapp-v2/contracts/oft/OFT721.sol";
+import "@openzeppelin/contracts/utils/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/utils/Pausable.sol";
 
 /**
  * @title CryptoTrumpMarketplace
  * @notice NFT Marketplace for CryptoTrump - 10,000 unique Trump-themed collectibles
- * @dev Modern implementation with ERC721, cross-chain capabilities, and comprehensive security
+ * @dev Modern implementation with ERC721 and comprehensive security
  *
  * 🇺🇸 Make NFTs Great Again! 🇺🇸
  *
  * Features:
  * - 10,000 unique Trump-themed digital collectibles
  * - Full ERC721 standard compliance
- * - Cross-chain transfers via LayerZero V2
  * - Built-in marketplace for buying, selling, and bidding
  * - Solidity 0.8.20 with modern security patterns
  * - OpenZeppelin audited contracts
  * - Pausable for emergency situations
+ *
+ * Note: Cross-chain capabilities will be added in Phase 2
  */
-contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
+contract CryptoTrumpMarketplace is ERC721, Ownable, ReentrancyGuard, Pausable {
 
     // ============ Constants ============
 
@@ -104,9 +104,6 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
     /// @notice Emitted when a Trump is removed from sale
     event TrumpNoLongerForSale(uint256 indexed trumpIndex);
 
-    /// @notice Emitted when a cross-chain transfer is initiated
-    event CrossChainTransferInitiated(uint256 indexed trumpIndex, address indexed from, uint32 indexed dstEid, address to);
-
     // ============ Errors ============
 
     error TrumpIndexOutOfRange();
@@ -130,14 +127,9 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
     // ============ Constructor ============
 
     /**
-     * @notice Initialize the CryptoTrump marketplace with cross-chain capabilities
-     * @param _lzEndpoint LayerZero endpoint address for cross-chain messaging
-     * @param _delegate Address that can configure LayerZero settings
+     * @notice Initialize the CryptoTrump marketplace
      */
-    constructor(
-        address _lzEndpoint,
-        address _delegate
-    ) OFT721(COLLECTION_NAME, TOKEN_SYMBOL, _lzEndpoint, _delegate) {
+    constructor() ERC721(COLLECTION_NAME, TOKEN_SYMBOL) Ownable(msg.sender) {
         nextTrumpIndexToAssign = 0;
         trumpsRemainingToAssign = TOTAL_TRUMPS;
         allTrumpsAssigned = false;
@@ -146,11 +138,11 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
     // ============ Initial Distribution Functions ============
 
     /**
-     * @notice Assign initial ownership of a Trump (only owner, before all assigned)
+     * @notice Internal function to assign initial ownership of a Trump
      * @param to Address to assign the Trump to
      * @param trumpIndex Index of the Trump to assign
      */
-    function setInitialOwner(address to, uint256 trumpIndex) external onlyOwner {
+    function _setInitialOwner(address to, uint256 trumpIndex) internal {
         if (allTrumpsAssigned) revert AllTrumpsAlreadyAssigned();
         if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
         if (to == address(0)) revert InvalidAddress();
@@ -168,6 +160,15 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
     }
 
     /**
+     * @notice Assign initial ownership of a Trump (only owner, before all assigned)
+     * @param to Address to assign the Trump to
+     * @param trumpIndex Index of the Trump to assign
+     */
+    function setInitialOwner(address to, uint256 trumpIndex) external onlyOwner {
+        _setInitialOwner(to, trumpIndex);
+    }
+
+    /**
      * @notice Batch assign initial owners
      * @param addresses Array of addresses to assign Trumps to
      * @param indices Array of Trump indices to assign
@@ -176,7 +177,7 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
         require(addresses.length == indices.length, "Array length mismatch");
 
         for (uint256 i = 0; i < addresses.length; i++) {
-            setInitialOwner(addresses[i], indices[i]);
+            _setInitialOwner(addresses[i], indices[i]);
         }
     }
 
@@ -230,22 +231,24 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
     }
 
     /**
-     * @notice Override ERC721 transfer to handle marketplace state
+     * @notice Override ERC721 update to handle marketplace state
      */
-    function _afterTokenTransfer(
-        address from,
+    function _update(
         address to,
-        uint256 firstTokenId,
-        uint256 batchSize
-    ) internal virtual override {
-        super._afterTokenTransfer(from, to, firstTokenId, batchSize);
+        uint256 tokenId,
+        address auth
+    ) internal virtual override returns (address) {
+        address from = super._update(to, tokenId, auth);
 
+        // Clean up marketplace state on transfer
         if (from != address(0) && to != address(0)) {
-            if (trumpsOfferedForSale[firstTokenId].isForSale &&
-                trumpsOfferedForSale[firstTokenId].seller == from) {
-                delete trumpsOfferedForSale[firstTokenId];
+            if (trumpsOfferedForSale[tokenId].isForSale &&
+                trumpsOfferedForSale[tokenId].seller == from) {
+                delete trumpsOfferedForSale[tokenId];
             }
         }
+
+        return from;
     }
 
     // ============ Sale Functions ============
@@ -442,82 +445,6 @@ contract CryptoTrumpMarketplace is OFT721, ReentrancyGuard, Pausable {
 
         (bool success, ) = msg.sender.call{value: amount}("");
         require(success, "Transfer failed");
-    }
-
-    // ============ Cross-Chain Functions ============
-
-    /**
-     * @notice Send a Trump to another chain
-     * @param trumpIndex Index of the Trump to send
-     * @param dstEid Destination chain endpoint ID
-     * @param to Recipient address on destination chain
-     * @param options LayerZero message options
-     */
-    function sendTrumpCrossChain(
-        uint256 trumpIndex,
-        uint32 dstEid,
-        address to,
-        bytes calldata options
-    ) external payable nonReentrant whenNotPaused {
-        if (trumpIndex >= TOTAL_TRUMPS) revert TrumpIndexOutOfRange();
-        if (ownerOf(trumpIndex) != msg.sender) revert NotTrumpOwner();
-        if (to == address(0)) revert InvalidAddress();
-
-        if (trumpsOfferedForSale[trumpIndex].isForSale) {
-            _removeTrumpFromSale(trumpIndex);
-        }
-
-        if (trumpBids[trumpIndex].hasBid) {
-            Bid memory bid = trumpBids[trumpIndex];
-            pendingWithdrawals[bid.bidder] += bid.value;
-            delete trumpBids[trumpIndex];
-        }
-
-        bytes32 toBytes32 = bytes32(uint256(uint160(to)));
-
-        send(
-            SendParam({
-                dstEid: dstEid,
-                to: toBytes32,
-                tokenId: trumpIndex,
-                extraOptions: options,
-                composeMsg: "",
-                oftCmd: ""
-            }),
-            MessagingFee({nativeFee: msg.value, lzTokenFee: 0}),
-            payable(msg.sender)
-        );
-
-        emit CrossChainTransferInitiated(trumpIndex, msg.sender, dstEid, to);
-    }
-
-    /**
-     * @notice Quote the fee for cross-chain transfer
-     * @param trumpIndex Index of the Trump
-     * @param dstEid Destination endpoint ID
-     * @param to Recipient address
-     * @param options LayerZero options
-     * @return fee The messaging fee required
-     */
-    function quoteSendTrump(
-        uint256 trumpIndex,
-        uint32 dstEid,
-        address to,
-        bytes calldata options
-    ) external view returns (MessagingFee memory fee) {
-        bytes32 toBytes32 = bytes32(uint256(uint160(to)));
-
-        return quoteSend(
-            SendParam({
-                dstEid: dstEid,
-                to: toBytes32,
-                tokenId: trumpIndex,
-                extraOptions: options,
-                composeMsg: "",
-                oftCmd: ""
-            }),
-            false
-        );
     }
 
     // ============ Admin Functions ============

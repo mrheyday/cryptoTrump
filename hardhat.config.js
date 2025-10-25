@@ -7,14 +7,18 @@ require("dotenv").config();
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: {
-    version: "0.8.20",
-    settings: {
-      optimizer: {
-        enabled: true,
-        runs: 200,
+    compilers: [
+      {
+        version: "0.8.20",
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 200,
+          },
+          viaIR: false, // Disable IR for now due to compiler issues
+        },
       },
-      viaIR: true, // Enable intermediate representation for better optimization
-    },
+    ],
   },
   networks: {
     // Local development
