@@ -4,6 +4,10 @@ require("hardhat-gas-reporter");
 require("solidity-coverage");
 require("dotenv").config();
 
+// Configure Hardhat to use zkSync's solx mirror for compiler downloads
+// This bypasses restrictions on binaries.soliditylang.org
+process.env.HARDHAT_COMPILER_DOWNLOAD_URL_BASE = "https://solx.zksync.io/";
+
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: {
@@ -15,7 +19,7 @@ module.exports = {
             enabled: true,
             runs: 200,
           },
-          viaIR: false, // Disable IR for now due to compiler issues
+          viaIR: false, // Disable IR for stability
         },
       },
     ],
